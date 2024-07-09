@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Cosmetic" load_steps=3 format=3 uid="uid://c3xe1yfmsnqcs"]
+
+[ext_resource type="Texture2D" uid="uid://ftcjtr4isb0q" path="res://Textures/UI/Cosmetics/Pet/Floating_Heart.png" id="1_jdmo7"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/Cosemtic.gd" id="2_enals"]
+
+[resource]
+script = ExtResource("2_enals")
+image = ExtResource("1_jdmo7")
+name = "Floating Heart"
+type = "Pet"
+Probability = 0

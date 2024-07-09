@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=5 format=3 uid="uid://c54yujejhkplo"]
+
+[ext_resource type="Resource" uid="uid://diivcmsjpqjlk" path="res://Scriptable Object Recources/Items/Blocks/Building/Stone/Clean_Stone.tres" id="1_4qwg5"]
+[ext_resource type="Resource" uid="uid://bbouamf0n667v" path="res://Scriptable Object Recources/Items/Resources/Wooden_Loggs.tres" id="2_wt1h7"]
+[ext_resource type="Resource" uid="uid://cbtl5y51vaxet" path="res://Scriptable Object Recources/Items/Tools/Stone/Stone_Pickaxe.tres" id="3_q4vhw"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/Recipe.gd" id="4_oclwv"]
+
+[resource]
+script = ExtResource("4_oclwv")
+output_item = ExtResource("3_q4vhw")
+output_count = 1
+input_item = Array[Resource("res://Scriptable Object Recources/Recources/item.gd")]([ExtResource("1_4qwg5"), ExtResource("2_wt1h7")])
+input_count = Array[int]([5, 3])

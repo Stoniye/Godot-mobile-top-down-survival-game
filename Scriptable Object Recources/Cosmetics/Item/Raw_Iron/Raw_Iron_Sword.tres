@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Cosmetic" load_steps=3 format=3 uid="uid://b8grpim1pmovl"]
+
+[ext_resource type="Texture2D" uid="uid://dbj363t1o5gf2" path="res://Textures/UI/Cosmetics/Item Skins/Raw_Iron/Raw_Iron_Sword.png" id="1_5eely"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/Cosemtic.gd" id="2_x704a"]
+
+[resource]
+script = ExtResource("2_x704a")
+image = ExtResource("1_5eely")
+name = "Raw Sword"
+type = "Item"
+Probability = 3

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Cosmetic" load_steps=3 format=3 uid="uid://b1v0tdx24tqo2"]
+
+[ext_resource type="Texture2D" uid="uid://bbefnrcbnh2hf" path="res://Textures/UI/Cosmetics/Hat/Leather_Hat.png" id="1_vdajl"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/Cosemtic.gd" id="2_4c867"]
+
+[resource]
+script = ExtResource("2_4c867")
+image = ExtResource("1_vdajl")
+name = "Leather Hat"
+type = "Hat"
+Probability = 30

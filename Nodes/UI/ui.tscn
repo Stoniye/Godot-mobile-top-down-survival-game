@@ -1,0 +1,5738 @@
+[gd_scene load_steps=56 format=3 uid="uid://bjbiypwk887mr"]
+
+[ext_resource type="Texture2D" uid="uid://bl81h12kkv6mp" path="res://Textures/UI/Inventory/Backback.png" id="1_uunaj"]
+[ext_resource type="Script" path="res://Scrips/UI/ui.gd" id="1_wpuco"]
+[ext_resource type="Texture2D" uid="uid://pcuqx3shopst" path="res://Textures/UI/Inventory/InventoryBackground.png" id="2_v85i5"]
+[ext_resource type="Texture2D" uid="uid://7ssaiidbmm25" path="res://Textures/UI/Buttons/ActionButton_Arrow.png" id="3_h1eql"]
+[ext_resource type="Texture2D" uid="uid://bmffsklm6vc0i" path="res://Textures/UI/General UI/Close.png" id="3_xsoex"]
+[ext_resource type="Texture2D" uid="uid://cu5ucpu4ntv72" path="res://Textures/UI/Inventory/SlotImage.png" id="4_5t1co"]
+[ext_resource type="Texture2D" uid="uid://30oax6mggbi" path="res://Textures/UI/Inventory/ItemSlot.png" id="5_4548a"]
+[ext_resource type="Texture2D" uid="uid://bpbb2snsw3vgu" path="res://Textures/UI/Inventory/SlotAddon.png" id="6_188j0"]
+[ext_resource type="Texture2D" uid="uid://b3gdgyy5u5lww" path="res://Textures/UI/Inventory/CraftingBackground.png" id="7_4goye"]
+[ext_resource type="Texture2D" uid="uid://gl8ngtc28xnf" path="res://Textures/UI/General UI/SliderBackground.png" id="7_bhfpn"]
+[ext_resource type="Texture2D" uid="uid://csgbgcfs4unaf" path="res://Textures/UI/Inventory/Equipment Background.png" id="7_vbokc"]
+[ext_resource type="Texture2D" uid="uid://72ajs32p8ul7" path="res://Textures/UI/General UI/CheckBox.png" id="8_1ckij"]
+[ext_resource type="Texture2D" uid="uid://cphpatvcllbe1" path="res://Textures/UI/General UI/SliderFill.png" id="8_344ek"]
+[ext_resource type="Texture2D" uid="uid://ckfaskj58ornk" path="res://Textures/UI/Inventory/Heart.png" id="9_eplf4"]
+[ext_resource type="Texture2D" uid="uid://cfm6gipx27wbp" path="res://Textures/UI/General UI/CheckForBox.png" id="9_uyx2q"]
+[ext_resource type="Script" path="res://Scrips/UI/Slot.gd" id="10_6sqy1"]
+[ext_resource type="Texture2D" uid="uid://drdc7ida6bntf" path="res://Textures/UI/General UI/Furnace_Arrow_Background.png" id="10_42s83"]
+[ext_resource type="Texture2D" uid="uid://daju4mmlysro5" path="res://Textures/UI/Inventory/Arrow.png" id="10_vxe2g"]
+[ext_resource type="Script" path="res://Scrips/UI/ItemSlot.gd" id="10_x80yw"]
+[ext_resource type="Texture2D" uid="uid://b3am3rybfaphy" path="res://Textures/UI/General UI/Furnace_Arrow_Fill.png" id="11_j6vjh"]
+[ext_resource type="Script" path="res://Scrips/UI/RecipeSlot.gd" id="11_lxqds"]
+[ext_resource type="Texture2D" uid="uid://dhkogq41eypt2" path="res://Textures/UI/Inventory/FurnaceBackground.png" id="12_cx27h"]
+[ext_resource type="Texture2D" uid="uid://cvl4sqpoxbvac" path="res://Textures/Skins/Default.png" id="14_jqvoh"]
+[ext_resource type="Texture2D" uid="uid://8ukpuk82hsan" path="res://Textures/UI/General UI/Settings.png" id="16_0k7hi"]
+[ext_resource type="Texture2D" uid="uid://dgei3u6uje1ux" path="res://Textures/UI/General UI/Pause.png" id="16_gkdu8"]
+[ext_resource type="Texture2D" uid="uid://cw01e2lnhr8hl" path="res://Textures/UI/General UI/StandardWindow.png" id="17_2d4my"]
+[ext_resource type="Texture2D" uid="uid://bh37orddkek8u" path="res://Textures/UI/Buttons/Round_button.png" id="17_n41wy"]
+[ext_resource type="Texture2D" uid="uid://1afwg5ny2356" path="res://Textures/Menü/StandardButton.png" id="18_n63y3"]
+[ext_resource type="Texture2D" uid="uid://ouh6xotbr1r3" path="res://Textures/UI/Inventory/Open_Chest.png" id="19_bmmxq"]
+[ext_resource type="Texture2D" uid="uid://cgp0j3lxpe6bj" path="res://Textures/UI/Inventory/Helmet_Slot.png" id="19_x6q6e"]
+[ext_resource type="Texture2D" uid="uid://cv21jjcvi00oe" path="res://Textures/UI/Inventory/TransferToChest.png" id="20_46mqx"]
+[ext_resource type="Texture2D" uid="uid://dde3jaulwbjfv" path="res://Textures/UI/Inventory/Energy_Orbs_Slot.png" id="20_mwon1"]
+[ext_resource type="Texture2D" uid="uid://0lugtt8vmlub" path="res://Textures/UI/Inventory/Chestplate_Slot.png" id="21_2tjgn"]
+[ext_resource type="Texture2D" uid="uid://cipxdjpnfrqg7" path="res://Textures/UI/Inventory/TransferToInv.png" id="21_cvgt4"]
+[ext_resource type="Texture2D" uid="uid://dexrb3lxhjg5b" path="res://Textures/UI/Inventory/Armor.png" id="22_376hn"]
+[ext_resource type="Texture2D" uid="uid://c4ygdc2gnjoxu" path="res://Textures/UI/General UI/Back.png" id="22_cmc3f"]
+[ext_resource type="Texture2D" uid="uid://gs2heto5odxi" path="res://Textures/UI/Inventory/Item_DetailsBackground.png" id="22_fh3rs"]
+[ext_resource type="Texture2D" uid="uid://cr5wk0c5yx8je" path="res://Textures/UI/General UI/Arrow_Lonly.png" id="23_64ljk"]
+[ext_resource type="Texture2D" uid="uid://k1djtj1ag452" path="res://Textures/UI/Inventory/Item_Profiler.png" id="24_ff1wk"]
+[ext_resource type="Script" path="res://Scrips/UI/Item_Profiler.gd" id="25_7scno"]
+[ext_resource type="Texture2D" uid="uid://donrbrxrow06h" path="res://Textures/UI/Inventory/Craft.png" id="25_o218e"]
+[ext_resource type="Texture2D" uid="uid://bcs332cuso72e" path="res://Textures/UI/Inventory/Display.png" id="30_3ll7v"]
+[ext_resource type="Texture2D" uid="uid://bln71ricovkly" path="res://Textures/UI/Planets/Azuria.png" id="31_roqvv"]
+[ext_resource type="Texture2D" uid="uid://d1p52e5g3qhn5" path="res://Textures/UI/Inventory/Display_Corner.png" id="31_um54s"]
+[ext_resource type="Script" path="res://Scrips/Planets_in_Screen.gd" id="32_enaib"]
+[ext_resource type="Texture2D" uid="uid://dmyrl6rmbkvtc" path="res://Textures/UI/Planets/Huvle.png" id="33_00u2h"]
+[ext_resource type="Texture2D" uid="uid://deavfytnybl46" path="res://Textures/UI/Planets/Selected_Planet.png" id="34_gelj0"]
+[ext_resource type="Texture2D" uid="uid://bui2o20wgoax5" path="res://Textures/UI/Planets/Tab.png" id="36_5krhp"]
+[ext_resource type="Texture2D" uid="uid://c73tnbob13w4y" path="res://Textures/UI/Planets/Bokuta.png" id="42_rmdjj"]
+[ext_resource type="Texture2D" uid="uid://dwoau42x4gslm" path="res://Textures/UI/Inventory/ItemTitle.png" id="45_exp6b"]
+[ext_resource type="Texture2D" uid="uid://vkvnntj45e2r" path="res://Textures/UI/Inventory/ItemProperties.png" id="46_sxmo6"]
+[ext_resource type="Texture2D" uid="uid://12huv2vcgrf0" path="res://Textures/UI/Inventory/ShowRecipe.png" id="47_o2x67"]
+
+[sub_resource type="Animation" id="Animation_h3yk8"]
+resource_name = "idle_animation"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [0, 1, 0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_7msks"]
+_data = {
+"idle_animation": SubResource("Animation_h3yk8")
+}
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_3u637"]
+
+[node name="UI" type="CanvasGroup"]
+script = ExtResource("1_wpuco")
+
+[node name="InventoryButton" type="TouchScreenButton" parent="."]
+position = Vector2(1020, 30)
+scale = Vector2(6.25, 6.667)
+texture_normal = ExtResource("1_uunaj")
+
+[node name="ActionPanel" type="Node2D" parent="."]
+visible = false
+modulate = Color(0, 0, 0, 1)
+position = Vector2(0, -63)
+
+[node name="Arrow_UP" type="TouchScreenButton" parent="ActionPanel"]
+position = Vector2(900, 180)
+scale = Vector2(0.2, 0.2)
+texture_normal = ExtResource("3_h1eql")
+
+[node name="Arrow_RIGHT" type="TouchScreenButton" parent="ActionPanel"]
+position = Vector2(1100, 280)
+rotation = 1.5708
+scale = Vector2(0.2, 0.2)
+texture_normal = ExtResource("3_h1eql")
+
+[node name="Arrow_LEFT" type="TouchScreenButton" parent="ActionPanel"]
+position = Vector2(800, 380)
+rotation = -1.5708
+scale = Vector2(0.2, 0.2)
+texture_normal = ExtResource("3_h1eql")
+
+[node name="Arrow_DOWN" type="TouchScreenButton" parent="ActionPanel"]
+position = Vector2(1000, 480)
+rotation = -3.14159
+scale = Vector2(0.2, 0.2)
+texture_normal = ExtResource("3_h1eql")
+
+[node name="Hotbar" type="Node2D" parent="."]
+
+[node name="Slot1" type="TouchScreenButton" parent="Hotbar"]
+position = Vector2(870, 530)
+scale = Vector2(2.85714, 2.85714)
+texture_normal = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Hotbar/Slot1"]
+offset_left = 2.2
+offset_top = 2.2
+offset_right = 25.651
+offset_bottom = 25.651
+expand_mode = 1
+script = ExtResource("10_x80yw")
+
+[node name="Slot2" type="TouchScreenButton" parent="Hotbar"]
+position = Vector2(955, 530)
+scale = Vector2(2.85714, 2.85714)
+texture_normal = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Hotbar/Slot2"]
+offset_left = 2.2
+offset_top = 2.2
+offset_right = 25.651
+offset_bottom = 25.651
+expand_mode = 1
+script = ExtResource("10_x80yw")
+
+[node name="Slot3" type="TouchScreenButton" parent="Hotbar"]
+position = Vector2(1040, 530)
+scale = Vector2(2.85714, 2.85714)
+texture_normal = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Hotbar/Slot3"]
+offset_left = 2.2
+offset_top = 2.2
+offset_right = 25.651
+offset_bottom = 25.651
+expand_mode = 1
+script = ExtResource("10_x80yw")
+
+[node name="Interact Panel" type="Node2D" parent="."]
+visible = false
+
+[node name="InteractButton" type="TouchScreenButton" parent="Interact Panel"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(945, 420)
+scale = Vector2(0.2, 0.2)
+texture_normal = ExtResource("17_n41wy")
+
+[node name="TextureRect" type="TextureRect" parent="Interact Panel/InteractButton"]
+modulate = Color(0.713726, 0.713726, 0.713726, 1)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -127.5
+offset_top = -127.5
+offset_right = 127.5
+offset_bottom = 127.5
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+
+[node name="RotateLeft" type="TouchScreenButton" parent="Interact Panel"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1120, 440)
+rotation = 1.5708
+scale = Vector2(0.13, 0.13)
+texture_normal = ExtResource("3_h1eql")
+
+[node name="TextureRect" type="TextureRect" parent="Interact Panel/RotateLeft"]
+modulate = Color(0.713726, 0.713726, 0.713726, 1)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -127.5
+offset_top = -127.5
+offset_right = 127.5
+offset_bottom = 127.5
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+
+[node name="RotateRight" type="TouchScreenButton" parent="Interact Panel"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(870, 505)
+rotation = -1.5708
+scale = Vector2(0.13, 0.13)
+texture_normal = ExtResource("3_h1eql")
+
+[node name="TextureRect" type="TextureRect" parent="Interact Panel/RotateRight"]
+modulate = Color(0.713726, 0.713726, 0.713726, 1)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -127.5
+offset_top = -127.5
+offset_right = 127.5
+offset_bottom = 127.5
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+
+[node name="Furnace" type="TextureRect" parent="."]
+visible = false
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 69.0
+offset_top = 23.0
+offset_right = 382.0
+offset_bottom = 628.0
+grow_vertical = 2
+texture = ExtResource("12_cx27h")
+expand_mode = 1
+
+[node name="Slots" type="Control" parent="Furnace"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Input" type="TextureRect" parent="Furnace/Slots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 120.0
+offset_top = 50.0
+offset_right = 200.0
+offset_bottom = 150.0
+grow_vertical = 2
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Furnace/Slots/Input"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Furnace/Slots/Input/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Furnace/Slots/Input"]
+visible = false
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Furnace/Slots/Input/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Fuel" type="TextureRect" parent="Furnace/Slots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 120.0
+offset_top = 210.0
+offset_right = 200.0
+offset_bottom = 310.0
+grow_vertical = 2
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Furnace/Slots/Fuel"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Furnace/Slots/Fuel/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Furnace/Slots/Fuel"]
+visible = false
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Furnace/Slots/Fuel/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Output" type="TextureRect" parent="Furnace/Slots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 120.0
+offset_top = 430.0
+offset_right = 200.0
+offset_bottom = 530.0
+grow_vertical = 2
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Furnace/Slots/Output"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Furnace/Slots/Output/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Furnace/Slots/Output"]
+visible = false
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Furnace/Slots/Output/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="Furnace"]
+layout_mode = 0
+offset_left = 135.0
+offset_top = 324.0
+offset_right = 185.0
+offset_bottom = 439.0
+max_value = 50.0
+value = 8.0
+fill_mode = 2
+nine_patch_stretch = true
+texture_under = ExtResource("10_42s83")
+texture_progress = ExtResource("11_j6vjh")
+
+[node name="Equipment" type="TextureRect" parent="."]
+visible = false
+offset_left = 105.0
+offset_top = 23.0
+offset_right = 382.0
+offset_bottom = 627.0
+texture = ExtResource("7_vbokc")
+
+[node name="HotbarTitle" type="Label" parent="Equipment"]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 443.0
+offset_right = 248.0
+offset_bottom = 466.0
+theme_override_colors/font_color = Color(0.364706, 0.156863, 0.0666667, 1)
+text = "Hotbar"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HotbarGrid" type="GridContainer" parent="Equipment"]
+layout_mode = 0
+offset_left = 29.57
+offset_top = 470.0
+offset_right = 247.57
+offset_bottom = 557.0
+columns = 3
+
+[node name="HotbarSlot1" type="TextureRect" parent="Equipment/HotbarGrid"]
+custom_minimum_size = Vector2(70, 87)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Equipment/HotbarGrid/HotbarSlot1"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 5.0
+offset_right = 63.8
+offset_bottom = 63.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Equipment/HotbarGrid/HotbarSlot1/ItemSlot"]
+layout_mode = 0
+offset_left = 6.5
+offset_top = 6.5
+offset_right = 51.5
+offset_bottom = 51.5
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Equipment/HotbarGrid/HotbarSlot1"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 65.435
+offset_right = 63.8
+offset_bottom = 82.006
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Equipment/HotbarGrid/HotbarSlot1/Addon"]
+layout_mode = 0
+offset_top = 1.0
+offset_right = 58.0
+offset_bottom = 16.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HotbarSlot2" type="TextureRect" parent="Equipment/HotbarGrid"]
+custom_minimum_size = Vector2(70, 87)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Equipment/HotbarGrid/HotbarSlot2"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 5.0
+offset_right = 63.8
+offset_bottom = 63.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Equipment/HotbarGrid/HotbarSlot2/ItemSlot"]
+layout_mode = 0
+offset_left = 6.5
+offset_top = 6.5
+offset_right = 51.5
+offset_bottom = 51.5
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Equipment/HotbarGrid/HotbarSlot2"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 65.435
+offset_right = 63.8
+offset_bottom = 82.006
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Equipment/HotbarGrid/HotbarSlot2/Addon"]
+layout_mode = 0
+offset_top = 1.0
+offset_right = 58.0
+offset_bottom = 16.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HotbarSlot3" type="TextureRect" parent="Equipment/HotbarGrid"]
+custom_minimum_size = Vector2(70, 87)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Equipment/HotbarGrid/HotbarSlot3"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 5.0
+offset_right = 63.8
+offset_bottom = 63.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Equipment/HotbarGrid/HotbarSlot3/ItemSlot"]
+layout_mode = 0
+offset_left = 6.5
+offset_top = 6.5
+offset_right = 51.5
+offset_bottom = 51.5
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Equipment/HotbarGrid/HotbarSlot3"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 65.435
+offset_right = 63.8
+offset_bottom = 82.006
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Equipment/HotbarGrid/HotbarSlot3/Addon"]
+layout_mode = 0
+offset_top = 1.0
+offset_right = 58.0
+offset_bottom = 16.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PlayerName" type="Label" parent="Equipment"]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 257.0
+offset_right = 262.0
+offset_bottom = 281.0
+theme_override_colors/font_color = Color(0.364706, 0.156863, 0.0666667, 1)
+text = "<PlayerName>"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HealthBar" type="TextureProgressBar" parent="Equipment"]
+layout_mode = 0
+offset_left = 83.0
+offset_top = 302.685
+offset_right = 225.308
+offset_bottom = 328.839
+value = 78.0
+nine_patch_stretch = true
+texture_under = ExtResource("7_bhfpn")
+texture_progress = ExtResource("8_344ek")
+tint_progress = Color(0.545098, 0.0666667, 0, 1)
+
+[node name="Heart" type="TextureRect" parent="Equipment/HealthBar"]
+modulate = Color(0.545098, 0.0666667, 0, 1)
+layout_mode = 0
+offset_left = -42.0
+offset_right = -11.0
+offset_bottom = 25.833
+texture = ExtResource("9_eplf4")
+
+[node name="Name" type="Label" parent="Equipment/HealthBar"]
+layout_mode = 0
+offset_left = -42.0
+offset_top = -19.0
+offset_right = 142.0
+offset_bottom = 4.0
+theme_override_colors/font_color = Color(0.364706, 0.156863, 0.0666667, 1)
+theme_override_font_sizes/font_size = 14
+text = "Health"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Progress" type="Label" parent="Equipment/HealthBar"]
+layout_mode = 0
+offset_top = 26.0
+offset_right = 142.0
+offset_bottom = 41.0
+theme_override_colors/font_color = Color(0.364706, 0.156863, 0.0666667, 1)
+theme_override_font_sizes/font_size = 10
+text = "<Health>/<MaxHealth>"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="TextureProgressBar" parent="Equipment"]
+layout_mode = 0
+offset_left = 83.0
+offset_top = 369.645
+offset_right = 225.308
+offset_bottom = 395.799
+max_value = 230.0
+value = 62.0
+nine_patch_stretch = true
+texture_under = ExtResource("7_bhfpn")
+texture_progress = ExtResource("8_344ek")
+tint_progress = Color(0.172549, 0.294118, 0.694118, 1)
+
+[node name="Arrow" type="TextureRect" parent="Equipment/LevelBar"]
+modulate = Color(0.172549, 0.294118, 0.694118, 1)
+layout_mode = 0
+offset_left = -40.0
+offset_top = -2.0
+offset_right = -9.0
+offset_bottom = 32.875
+texture = ExtResource("10_vxe2g")
+
+[node name="Name" type="Label" parent="Equipment/LevelBar"]
+layout_mode = 0
+offset_left = -42.0
+offset_top = -19.4
+offset_right = 142.0
+offset_bottom = 3.60001
+theme_override_colors/font_color = Color(0.364706, 0.156863, 0.0666667, 1)
+theme_override_font_sizes/font_size = 14
+text = "Level"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Progress" type="Label" parent="Equipment/LevelBar"]
+layout_mode = 0
+offset_top = 26.0
+offset_right = 142.0
+offset_bottom = 40.0
+theme_override_colors/font_color = Color(0.364706, 0.156863, 0.0666667, 1)
+theme_override_font_sizes/font_size = 10
+text = "(<Level>)<XP>/<MaxXP> -> <Level+1>"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="EquipmentGrid" type="GridContainer" parent="Equipment"]
+layout_mode = 0
+offset_left = 14.91
+offset_top = 87.0
+offset_right = 268.911
+offset_bottom = 300.0
+theme_override_constants/h_separation = 105
+theme_override_constants/v_separation = 7
+columns = 2
+
+[node name="HelmetSlot" type="TextureRect" parent="Equipment/EquipmentGrid"]
+custom_minimum_size = Vector2(70, 87)
+layout_mode = 2
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Equipment/EquipmentGrid/HelmetSlot"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 5.0
+offset_right = 63.8
+offset_bottom = 63.0
+texture = ExtResource("5_4548a")
+
+[node name="Background" type="TextureRect" parent="Equipment/EquipmentGrid/HelmetSlot/ItemSlot"]
+layout_mode = 0
+offset_left = 6.5
+offset_top = 6.5
+offset_right = 51.5
+offset_bottom = 51.5
+texture = ExtResource("19_x6q6e")
+expand_mode = 1
+
+[node name="TextureRect" type="TextureRect" parent="Equipment/EquipmentGrid/HelmetSlot/ItemSlot"]
+layout_mode = 0
+offset_left = 6.5
+offset_top = 6.5
+offset_right = 51.5
+offset_bottom = 51.5
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Equipment/EquipmentGrid/HelmetSlot"]
+visible = false
+layout_mode = 0
+offset_left = 5.8
+offset_top = 65.435
+offset_right = 63.8
+offset_bottom = 82.006
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Equipment/EquipmentGrid/HelmetSlot/Addon"]
+layout_mode = 0
+offset_top = 1.0
+offset_right = 58.0
+offset_bottom = 16.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="EnergyOrbsSlot2" type="TextureRect" parent="Equipment/EquipmentGrid"]
+custom_minimum_size = Vector2(70, 87)
+layout_mode = 2
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Equipment/EquipmentGrid/EnergyOrbsSlot2"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 5.0
+offset_right = 63.8
+offset_bottom = 63.0
+texture = ExtResource("5_4548a")
+
+[node name="Background" type="TextureRect" parent="Equipment/EquipmentGrid/EnergyOrbsSlot2/ItemSlot"]
+layout_mode = 0
+offset_left = 6.5
+offset_top = 6.5
+offset_right = 51.5
+offset_bottom = 51.5
+texture = ExtResource("20_mwon1")
+expand_mode = 1
+
+[node name="TextureRect" type="TextureRect" parent="Equipment/EquipmentGrid/EnergyOrbsSlot2/ItemSlot"]
+layout_mode = 0
+offset_left = 6.5
+offset_top = 6.5
+offset_right = 51.5
+offset_bottom = 51.5
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Equipment/EquipmentGrid/EnergyOrbsSlot2"]
+visible = false
+layout_mode = 0
+offset_left = 5.8
+offset_top = 65.435
+offset_right = 63.8
+offset_bottom = 82.006
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Equipment/EquipmentGrid/EnergyOrbsSlot2/Addon"]
+layout_mode = 0
+offset_top = 1.0
+offset_right = 58.0
+offset_bottom = 16.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestplateSlot" type="TextureRect" parent="Equipment/EquipmentGrid"]
+custom_minimum_size = Vector2(70, 87)
+layout_mode = 2
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Equipment/EquipmentGrid/ChestplateSlot"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 5.0
+offset_right = 63.8
+offset_bottom = 63.0
+texture = ExtResource("5_4548a")
+
+[node name="Background" type="TextureRect" parent="Equipment/EquipmentGrid/ChestplateSlot/ItemSlot"]
+layout_mode = 0
+offset_left = 6.5
+offset_top = 6.5
+offset_right = 51.5
+offset_bottom = 51.5
+texture = ExtResource("21_2tjgn")
+expand_mode = 1
+
+[node name="TextureRect" type="TextureRect" parent="Equipment/EquipmentGrid/ChestplateSlot/ItemSlot"]
+layout_mode = 0
+offset_left = 6.5
+offset_top = 6.5
+offset_right = 51.5
+offset_bottom = 51.5
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Equipment/EquipmentGrid/ChestplateSlot"]
+visible = false
+layout_mode = 0
+offset_left = 5.8
+offset_top = 65.435
+offset_right = 63.8
+offset_bottom = 82.006
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Equipment/EquipmentGrid/ChestplateSlot/Addon"]
+layout_mode = 0
+offset_top = 1.0
+offset_right = 58.0
+offset_bottom = 16.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="EnergyOrbsSlot4" type="TextureRect" parent="Equipment/EquipmentGrid"]
+custom_minimum_size = Vector2(70, 87)
+layout_mode = 2
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Equipment/EquipmentGrid/EnergyOrbsSlot4"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 5.0
+offset_right = 63.8
+offset_bottom = 63.0
+texture = ExtResource("5_4548a")
+
+[node name="Background" type="TextureRect" parent="Equipment/EquipmentGrid/EnergyOrbsSlot4/ItemSlot"]
+layout_mode = 0
+offset_left = 6.5
+offset_top = 6.5
+offset_right = 51.5
+offset_bottom = 51.5
+texture = ExtResource("20_mwon1")
+expand_mode = 1
+
+[node name="TextureRect" type="TextureRect" parent="Equipment/EquipmentGrid/EnergyOrbsSlot4/ItemSlot"]
+layout_mode = 0
+offset_left = 6.5
+offset_top = 6.5
+offset_right = 51.5
+offset_bottom = 51.5
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Equipment/EquipmentGrid/EnergyOrbsSlot4"]
+visible = false
+layout_mode = 0
+offset_left = 5.8
+offset_top = 65.435
+offset_right = 63.8
+offset_bottom = 82.006
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Equipment/EquipmentGrid/EnergyOrbsSlot4/Addon"]
+layout_mode = 0
+offset_top = 1.0
+offset_right = 58.0
+offset_bottom = 16.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ArmorPoints" type="TextureRect" parent="Equipment"]
+layout_mode = 0
+offset_left = 143.0
+offset_top = 56.0
+offset_right = 162.0
+offset_bottom = 75.0
+texture = ExtResource("22_376hn")
+expand_mode = 1
+
+[node name="Points" type="Label" parent="Equipment/ArmorPoints"]
+layout_mode = 0
+offset_left = -104.0
+offset_top = -2.0
+offset_right = -4.0
+offset_bottom = 21.0
+theme_override_colors/font_color = Color(0.368627, 0.160784, 0.0666667, 1)
+theme_override_font_sizes/font_size = 16
+text = "<AP>"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Equipment"]
+position = Vector2(139, 168)
+scale = Vector2(0.625, 0.625)
+texture = ExtResource("14_jqvoh")
+hframes = 6
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Equipment"]
+libraries = {
+"": SubResource("AnimationLibrary_7msks")
+}
+autoplay = "idle_animation"
+
+[node name="Inventory" type="TextureRect" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 412.0
+offset_top = 23.0
+offset_right = 1059.0
+offset_bottom = 628.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_v85i5")
+
+[node name="InventoryGrid" type="GridContainer" parent="Inventory"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 33.495
+offset_right = 615.0
+offset_bottom = 573.495
+theme_override_constants/h_separation = 5
+theme_override_constants/v_separation = 10
+columns = 7
+
+[node name="InventorySlot1" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot1"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot1/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot1"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot1/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot2" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot2"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot2/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot2"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot2/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot3" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot3"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot3/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot3"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot3/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot4" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot4"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot4/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot4"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot4/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot5" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot5"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot5/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot5"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot5/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot6" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot6"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot6/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot6"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot6/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot7" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot7"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot7/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot7"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot7/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot8" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot8"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot8/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot8"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot8/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot9" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot9"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot9/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot9"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot9/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot10" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot10"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot10/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot10"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot10/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot11" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot11"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot11/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot11"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot11/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot12" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot12"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot12/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot12"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot12/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot13" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot13"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot13/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot13"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot13/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot14" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot14"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot14/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot14"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot14/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot15" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot15"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot15/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot15"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot15/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot16" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot16"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot16/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot16"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot16/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot17" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot17"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot17/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot17"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot17/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot18" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot18"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot18/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot18"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot18/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot19" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot19"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot19/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot19"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot19/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot20" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot20"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot20/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot20"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot20/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot21" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot21"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot21/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot21"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot21/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot22" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot22"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot22/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot22"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot22/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot23" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot23"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot23/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot23"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot23/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot24" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot24"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot24/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot24"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot24/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot25" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot25"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot25/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot25"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot25/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot26" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot26"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot26/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot26"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot26/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot27" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot27"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot27/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot27"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot27/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot28" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot28"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot28/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot28"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot28/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot29" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot29"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot29/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot29"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot29/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot30" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot30"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot30/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot30"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot30/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot31" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot31"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot31/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot31"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot31/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot32" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot32"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot32/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot32"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot32/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot33" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot33"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot33/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot33"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot33/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InventorySlot34" type="TextureRect" parent="Inventory/InventoryGrid"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot34"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot34/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Inventory/InventoryGrid/InventorySlot34"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Inventory/InventoryGrid/InventorySlot34/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Close" type="TouchScreenButton" parent="Inventory"]
+position = Vector2(-20, -20)
+scale = Vector2(4.5, 4.5)
+texture_normal = ExtResource("3_xsoex")
+
+[node name="Item_Profiler" type="TextureRect" parent="Inventory"]
+layout_mode = 0
+offset_left = 541.0
+offset_top = 491.0
+offset_right = 609.0
+offset_bottom = 559.0
+texture = ExtResource("24_ff1wk")
+expand_mode = 1
+script = ExtResource("25_7scno")
+
+[node name="Chest" type="TextureRect" parent="."]
+visible = false
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 69.0
+offset_top = 23.0
+offset_right = 382.0
+offset_bottom = 628.0
+grow_vertical = 2
+texture = ExtResource("12_cx27h")
+expand_mode = 1
+
+[node name="Open_Chest" type="TextureButton" parent="Chest"]
+layout_mode = 0
+offset_left = 110.0
+offset_top = 76.0
+offset_right = 210.0
+offset_bottom = 176.0
+texture_normal = ExtResource("19_bmmxq")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Slots" type="Control" parent="Chest"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TransferToChestSlot" type="TextureRect" parent="Chest/Slots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 0
+offset_left = 181.285
+offset_top = 285.0
+offset_right = 261.286
+offset_bottom = 385.0
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Slots/TransferToChestSlot"]
+layout_mode = 0
+offset_left = -1.0
+offset_top = 0.785
+offset_right = 67.0
+offset_bottom = 68.785
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Slots/TransferToChestSlot/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Slots/TransferToChestSlot"]
+visible = false
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Slots/TransferToChestSlot/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TransferToChest" type="TextureRect" parent="Chest/Slots/TransferToChestSlot"]
+layout_mode = 0
+offset_left = -111.76
+offset_top = -15.0
+offset_right = -11.7599
+offset_bottom = 85.0002
+texture = ExtResource("20_46mqx")
+expand_mode = 1
+
+[node name="TransferToInvSlot" type="TextureRect" parent="Chest/Slots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 0
+offset_left = 181.285
+offset_top = 410.935
+offset_right = 261.286
+offset_bottom = 510.935
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Slots/TransferToInvSlot"]
+layout_mode = 0
+offset_left = -1.0
+offset_top = 0.785
+offset_right = 67.0
+offset_bottom = 68.785
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Slots/TransferToInvSlot/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+inv_item = NodePath("")
+
+[node name="Addon" type="TextureRect" parent="Chest/Slots/TransferToInvSlot"]
+visible = false
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Slots/TransferToInvSlot/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TransferToInv" type="TextureRect" parent="Chest/Slots/TransferToInvSlot"]
+layout_mode = 0
+offset_left = -111.76
+offset_top = -15.0
+offset_right = -11.7599
+offset_bottom = 85.0002
+texture = ExtResource("21_cvgt4")
+expand_mode = 1
+
+[node name="Chest" type="TextureRect" parent="Chest"]
+visible = false
+layout_mode = 0
+offset_left = 343.0
+offset_right = 990.0
+offset_bottom = 605.0
+texture = ExtResource("2_v85i5")
+
+[node name="ChestSlot1" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 25.245
+offset_top = 33.495
+offset_right = 105.245
+offset_bottom = 133.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot1"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot1/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot1"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot1/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot2" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 110.245
+offset_top = 33.495
+offset_right = 190.245
+offset_bottom = 133.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot2"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot2/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot2"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot2/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot3" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 195.245
+offset_top = 33.495
+offset_right = 275.245
+offset_bottom = 133.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot3"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot3/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot3"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot3/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot4" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 280.245
+offset_top = 33.495
+offset_right = 360.245
+offset_bottom = 133.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot4"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot4/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot4"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot4/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot5" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 365.245
+offset_top = 33.495
+offset_right = 445.245
+offset_bottom = 133.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot5"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot5/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot5"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot5/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot6" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 450.245
+offset_top = 33.495
+offset_right = 530.245
+offset_bottom = 133.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot6"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot6/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot6"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot6/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot7" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 535.245
+offset_top = 33.495
+offset_right = 615.245
+offset_bottom = 133.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot7"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot7/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot7"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot7/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot8" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 25.245
+offset_top = 143.495
+offset_right = 105.245
+offset_bottom = 243.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot8"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot8/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot8"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot8/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot9" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 110.245
+offset_top = 143.495
+offset_right = 190.245
+offset_bottom = 243.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot9"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot9/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot9"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot9/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot10" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 195.245
+offset_top = 143.495
+offset_right = 275.245
+offset_bottom = 243.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot10"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot10/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot10"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot10/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot11" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 280.245
+offset_top = 143.495
+offset_right = 360.245
+offset_bottom = 243.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot11"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot11/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot11"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot11/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot12" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 365.245
+offset_top = 143.495
+offset_right = 445.245
+offset_bottom = 243.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot12"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot12/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot12"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot12/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot13" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 450.245
+offset_top = 143.495
+offset_right = 530.245
+offset_bottom = 243.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot13"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot13/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot13"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot13/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot14" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 535.245
+offset_top = 143.495
+offset_right = 615.245
+offset_bottom = 243.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot14"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot14/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot14"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot14/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot15" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 25.245
+offset_top = 253.495
+offset_right = 105.245
+offset_bottom = 353.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot15"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot15/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot15"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot15/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot16" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 110.245
+offset_top = 253.495
+offset_right = 190.245
+offset_bottom = 353.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot16"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot16/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot16"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot16/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot17" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 195.245
+offset_top = 253.495
+offset_right = 275.245
+offset_bottom = 353.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot17"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot17/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot17"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot17/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot18" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 280.245
+offset_top = 253.495
+offset_right = 360.245
+offset_bottom = 353.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot18"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot18/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot18"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot18/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot19" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 365.245
+offset_top = 253.495
+offset_right = 445.245
+offset_bottom = 353.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot19"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot19/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot19"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot19/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot20" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 450.245
+offset_top = 253.495
+offset_right = 530.245
+offset_bottom = 353.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot20"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot20/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot20"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot20/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot21" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 535.245
+offset_top = 253.495
+offset_right = 615.245
+offset_bottom = 353.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot21"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot21/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot21"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot21/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot22" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 25.245
+offset_top = 363.495
+offset_right = 105.245
+offset_bottom = 463.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot22"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot22/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot22"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot22/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot23" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 110.245
+offset_top = 363.495
+offset_right = 190.245
+offset_bottom = 463.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot23"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot23/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot23"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot23/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot24" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 195.245
+offset_top = 363.495
+offset_right = 275.245
+offset_bottom = 463.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot24"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot24/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot24"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot24/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot25" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 280.245
+offset_top = 363.495
+offset_right = 360.245
+offset_bottom = 463.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot25"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot25/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot25"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot25/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot26" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 365.245
+offset_top = 363.495
+offset_right = 445.245
+offset_bottom = 463.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot26"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot26/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot26"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot26/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot27" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 450.245
+offset_top = 363.495
+offset_right = 530.245
+offset_bottom = 463.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot27"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot27/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot27"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot27/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot28" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 535.245
+offset_top = 363.495
+offset_right = 615.245
+offset_bottom = 463.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot28"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot28/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot28"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot28/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot29" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 25.245
+offset_top = 473.495
+offset_right = 105.245
+offset_bottom = 573.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot29"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot29/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot29"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot29/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot30" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 110.245
+offset_top = 473.495
+offset_right = 190.245
+offset_bottom = 573.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot30"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot30/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot30"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot30/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot31" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 195.245
+offset_top = 473.495
+offset_right = 275.245
+offset_bottom = 573.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot31"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot31/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot31"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot31/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot32" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 280.245
+offset_top = 473.495
+offset_right = 360.245
+offset_bottom = 573.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot32"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot32/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot32"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot32/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot33" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 365.245
+offset_top = 473.495
+offset_right = 445.245
+offset_bottom = 573.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot33"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot33/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot33"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot33/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot34" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 450.245
+offset_top = 473.495
+offset_right = 530.245
+offset_bottom = 573.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot34"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot34/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot34"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot34/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChestSlot35" type="TextureRect" parent="Chest/Chest"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 535.245
+offset_top = 473.495
+offset_right = 615.245
+offset_bottom = 573.495
+texture = ExtResource("4_5t1co")
+script = ExtResource("10_6sqy1")
+
+[node name="ItemSlot" type="TextureRect" parent="Chest/Chest/ChestSlot35"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Chest/Chest/ChestSlot35/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+script = ExtResource("10_x80yw")
+
+[node name="Addon" type="TextureRect" parent="Chest/Chest/ChestSlot35"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Chest/Chest/ChestSlot35/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Back" type="TextureRect" parent="Chest/Chest"]
+layout_mode = 0
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 43.0
+offset_bottom = 43.0
+texture = ExtResource("22_cmc3f")
+
+[node name="Crafting" type="TextureRect" parent="."]
+visible = false
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 69.0
+offset_top = 23.0
+offset_right = 382.0
+offset_bottom = 628.0
+grow_vertical = 2
+texture = ExtResource("7_4goye")
+expand_mode = 1
+
+[node name="OnlyCraftable" type="TextureButton" parent="Crafting"]
+self_modulate = Color(0.423529, 0.188235, 0.0862745, 1)
+layout_mode = 0
+offset_left = 57.0
+offset_top = 40.0
+offset_right = 97.0
+offset_bottom = 80.0
+texture_normal = ExtResource("8_1ckij")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Label" type="Label" parent="Crafting/OnlyCraftable"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 4.0
+offset_top = -17.0
+offset_right = 180.0
+offset_bottom = 17.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.423529, 0.188235, 0.0862745, 1)
+theme_override_font_sizes/font_size = 21
+text = "Only Craftable"
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="Crafting/OnlyCraftable"]
+visible = false
+self_modulate = Color(0.423529, 0.188235, 0.0862745, 1)
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 34.0
+offset_bottom = 34.0
+texture = ExtResource("9_uyx2q")
+expand_mode = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Crafting"]
+layout_mode = 0
+offset_left = 47.0
+offset_top = 113.0
+offset_right = 267.0
+offset_bottom = 563.0
+follow_focus = true
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+
+[node name="GridContainer" type="GridContainer" parent="Crafting/ScrollContainer"]
+layout_mode = 2
+theme_override_constants/v_separation = 6
+
+[node name="Placeholder_Top" type="TextureRect" parent="Crafting/ScrollContainer/GridContainer"]
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(220, 7.107)
+layout_mode = 2
+
+[node name="Prefab" type="TextureButton" parent="Crafting/ScrollContainer/GridContainer"]
+visible = false
+custom_minimum_size = Vector2(220, 62.857)
+layout_mode = 2
+texture_normal = ExtResource("6_188j0")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("11_lxqds")
+
+[node name="ItemSlot" type="TextureRect" parent="Crafting/ScrollContainer/GridContainer/Prefab"]
+self_modulate = Color(0.686275, 0.686275, 0.686275, 1)
+layout_mode = 0
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 58.0
+offset_bottom = 52.0
+texture = ExtResource("5_4548a")
+
+[node name="ItemImage" type="TextureRect" parent="Crafting/ScrollContainer/GridContainer/Prefab"]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 12.0
+offset_right = 56.0
+offset_bottom = 50.0
+expand_mode = 1
+
+[node name="ItemName" type="Label" parent="Crafting/ScrollContainer/GridContainer/Prefab"]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 13.0
+offset_right = 212.0
+offset_bottom = 49.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Recipe_Details" type="TextureRect" parent="Crafting"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 30.0
+offset_top = -302.5
+offset_right = 677.0
+offset_bottom = 302.5
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("22_fh3rs")
+
+[node name="Back" type="TextureRect" parent="Crafting/Recipe_Details"]
+layout_mode = 0
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 43.0
+offset_bottom = 43.0
+texture = ExtResource("22_cmc3f")
+
+[node name="OutputSlot" type="TextureRect" parent="Crafting/Recipe_Details"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 0
+offset_left = 283.0
+offset_top = 383.0
+offset_right = 363.0
+offset_bottom = 483.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Crafting/Recipe_Details/OutputSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Crafting/Recipe_Details/OutputSlot/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Crafting/Recipe_Details/OutputSlot"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Crafting/Recipe_Details/OutputSlot/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Arrow" type="TextureRect" parent="Crafting/Recipe_Details"]
+layout_mode = 0
+offset_left = 283.0
+offset_top = 278.765
+offset_right = 363.0
+offset_bottom = 368.765
+texture = ExtResource("23_64ljk")
+
+[node name="InputSlots" type="Control" parent="Crafting/Recipe_Details"]
+anchors_preset = 0
+offset_left = 28.5
+offset_top = 54.0
+offset_right = 619.5
+offset_bottom = 260.0
+
+[node name="InputSlot1" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_top = 1.0
+offset_right = 80.0
+offset_bottom = 101.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot1"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot1/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot1"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Crafting/Recipe_Details/InputSlots/InputSlot1/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot2" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 85.0
+offset_top = 1.0
+offset_right = 165.0
+offset_bottom = 101.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot2"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot2/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot2"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Crafting/Recipe_Details/InputSlots/InputSlot2/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot3" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 170.0
+offset_top = 1.0
+offset_right = 250.0
+offset_bottom = 101.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot3"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot3/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot3"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Crafting/Recipe_Details/InputSlots/InputSlot3/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot4" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 255.0
+offset_top = 1.0
+offset_right = 335.0
+offset_bottom = 101.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot4"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot4/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot4"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Crafting/Recipe_Details/InputSlots/InputSlot4/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot5" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 340.0
+offset_top = 1.0
+offset_right = 420.0
+offset_bottom = 101.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot5"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot5/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot5"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Crafting/Recipe_Details/InputSlots/InputSlot5/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot6" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 425.0
+offset_top = 1.0
+offset_right = 505.0
+offset_bottom = 101.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot6"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot6/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot6"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Crafting/Recipe_Details/InputSlots/InputSlot6/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot7" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 510.0
+offset_top = 1.0
+offset_right = 590.0
+offset_bottom = 101.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot7"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot7/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot7"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Crafting/Recipe_Details/InputSlots/InputSlot7/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot8" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_top = 105.0
+offset_right = 80.0
+offset_bottom = 205.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot8"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot8/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot8"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Crafting/Recipe_Details/InputSlots/InputSlot8/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot9" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 85.0
+offset_top = 105.0
+offset_right = 165.0
+offset_bottom = 205.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot9"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot9/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot9"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Crafting/Recipe_Details/InputSlots/InputSlot9/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot10" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 170.0
+offset_top = 105.0
+offset_right = 250.0
+offset_bottom = 205.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot10"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot10/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot10"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Crafting/Recipe_Details/InputSlots/InputSlot10/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot11" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 255.0
+offset_top = 105.0
+offset_right = 335.0
+offset_bottom = 205.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot11"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot11/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot11"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Crafting/Recipe_Details/InputSlots/InputSlot11/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot12" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 340.0
+offset_top = 105.0
+offset_right = 420.0
+offset_bottom = 205.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot12"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot12/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot12"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Crafting/Recipe_Details/InputSlots/InputSlot12/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot13" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 425.0
+offset_top = 105.0
+offset_right = 505.0
+offset_bottom = 205.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot13"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot13/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot13"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Crafting/Recipe_Details/InputSlots/InputSlot13/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot14" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 510.0
+offset_top = 105.0
+offset_right = 590.0
+offset_bottom = 205.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot14"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot14/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Crafting/Recipe_Details/InputSlots/InputSlot14"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Crafting/Recipe_Details/InputSlots/InputSlot14/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Craft" type="TextureButton" parent="Crafting/Recipe_Details"]
+layout_mode = 0
+offset_left = 495.0
+offset_top = 456.0
+offset_right = 595.0
+offset_bottom = 556.0
+texture_normal = ExtResource("25_o218e")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Rocket_Window" type="TextureRect" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 280.0
+offset_top = 30.0
+offset_right = 901.0
+offset_bottom = 610.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_v85i5")
+
+[node name="Display" type="TextureButton" parent="Rocket_Window"]
+layout_mode = 0
+offset_left = 45.0
+offset_top = 40.0
+offset_right = 576.0
+offset_bottom = 535.0
+texture_normal = ExtResource("30_3ll7v")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Rocket_Window"]
+layout_mode = 0
+offset_left = 59.0
+offset_top = 54.0
+offset_right = 562.0
+offset_bottom = 521.0
+scroll_horizontal = 100
+scroll_vertical = 100
+horizontal_scroll_mode = 3
+vertical_scroll_mode = 3
+
+[node name="Scrollable" type="TextureRect" parent="Rocket_Window/ScrollContainer"]
+self_modulate = Color(0, 0, 0, 1)
+custom_minimum_size = Vector2(800, 800)
+layout_mode = 2
+texture = SubResource("PlaceholderTexture2D_3u637")
+
+[node name="SelectedPlanet" type="TextureRect" parent="Rocket_Window/ScrollContainer/Scrollable"]
+visible = false
+layout_mode = 0
+offset_left = 224.0
+offset_top = 202.0
+offset_right = 274.0
+offset_bottom = 252.0
+texture = ExtResource("34_gelj0")
+
+[node name="Azuria" type="TextureButton" parent="Rocket_Window/ScrollContainer/Scrollable"]
+layout_mode = 0
+offset_left = 380.0
+offset_top = 380.0
+offset_right = 420.0
+offset_bottom = 420.0
+texture_normal = ExtResource("31_roqvv")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("32_enaib")
+plante_size = 14.6
+
+[node name="Huvle" type="TextureButton" parent="Rocket_Window/ScrollContainer/Scrollable"]
+layout_mode = 0
+offset_left = 398.0
+offset_top = 540.0
+offset_right = 428.0
+offset_bottom = 570.0
+texture_normal = ExtResource("33_00u2h")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("32_enaib")
+distance = 8.3
+plante_size = 8.0
+
+[node name="Bokuta" type="TextureButton" parent="Rocket_Window/ScrollContainer/Scrollable"]
+layout_mode = 0
+offset_left = 121.0
+offset_top = 484.0
+offset_right = 166.0
+offset_bottom = 529.0
+texture_normal = ExtResource("42_rmdjj")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("32_enaib")
+distance = 8.6
+plante_size = 15.7
+
+[node name="Corner1" type="TextureRect" parent="Rocket_Window"]
+layout_mode = 0
+offset_left = 49.5
+offset_top = 44.5
+offset_right = 80.4999
+offset_bottom = 75.5
+texture = ExtResource("31_um54s")
+
+[node name="Corner2" type="TextureRect" parent="Rocket_Window"]
+layout_mode = 0
+offset_left = 539.51
+offset_top = 44.39
+offset_right = 571.51
+offset_bottom = 76.39
+texture = ExtResource("31_um54s")
+flip_h = true
+
+[node name="Corner3" type="TextureRect" parent="Rocket_Window"]
+layout_mode = 0
+offset_left = 540.0
+offset_top = 499.0
+offset_right = 572.0
+offset_bottom = 531.0
+texture = ExtResource("31_um54s")
+flip_h = true
+flip_v = true
+
+[node name="Corner4" type="TextureRect" parent="Rocket_Window"]
+layout_mode = 0
+offset_left = 49.0
+offset_top = 499.0
+offset_right = 81.0
+offset_bottom = 532.0
+texture = ExtResource("31_um54s")
+flip_v = true
+
+[node name="Close" type="TextureButton" parent="Rocket_Window"]
+layout_mode = 0
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 43.0
+offset_bottom = 43.0
+texture_normal = ExtResource("3_xsoex")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Tab" type="TextureRect" parent="Rocket_Window"]
+visible = false
+modulate = Color(1, 1, 1, 0.784314)
+layout_mode = 0
+offset_left = 59.0
+offset_top = 76.0
+offset_right = 189.0
+offset_bottom = 281.0
+texture = ExtResource("36_5krhp")
+
+[node name="PlanetImage" type="TextureRect" parent="Rocket_Window/Tab"]
+layout_mode = 0
+offset_left = 80.5
+offset_top = 21.0
+offset_right = 106.5
+offset_bottom = 47.0
+texture = ExtResource("31_roqvv")
+
+[node name="PlanetName" type="Label" parent="Rocket_Window/Tab"]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 21.0
+offset_right = 71.0
+offset_bottom = 44.0
+theme_override_colors/font_color = Color(0.815686, 0.815686, 0.815686, 1)
+text = "Azuria"
+
+[node name="PlanetDistance" type="Label" parent="Rocket_Window/Tab"]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 68.86
+offset_right = 71.0
+offset_bottom = 91.86
+theme_override_colors/font_color = Color(0.815686, 0.815686, 0.815686, 1)
+text = "Dis: 0 Mio km"
+
+[node name="PlanetSize" type="Label" parent="Rocket_Window/Tab"]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 92.275
+offset_right = 120.0
+offset_bottom = 115.275
+theme_override_colors/font_color = Color(0.815686, 0.815686, 0.815686, 1)
+text = "Size: 14,6k km"
+
+[node name="Travel" type="TextureButton" parent="Rocket_Window/Tab"]
+self_modulate = Color(5.71553e-07, 0.360331, 4.33177e-07, 0.784314)
+layout_mode = 0
+offset_left = 14.0
+offset_top = 158.0
+offset_right = 114.0
+offset_bottom = 198.0
+texture_normal = ExtResource("18_n63y3")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Label" type="Label" parent="Rocket_Window/Tab/Travel"]
+layout_mode = 0
+offset_right = 100.0
+offset_bottom = 40.0
+theme_override_colors/font_color = Color(0.701961, 0.701961, 0.701961, 1)
+theme_override_font_sizes/font_size = 26
+text = "Travel"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Item_Profiler_Window" type="TextureRect" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 255.0
+offset_top = 23.0
+offset_right = 902.0
+offset_bottom = 628.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_v85i5")
+
+[node name="ItemInfo" type="Control" parent="Item_Profiler_Window"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Close" type="TextureButton" parent="Item_Profiler_Window/ItemInfo"]
+layout_mode = 0
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 43.0
+offset_bottom = 43.0
+texture_normal = ExtResource("3_xsoex")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="ItemSlot" type="TextureRect" parent="Item_Profiler_Window/ItemInfo"]
+layout_mode = 0
+offset_left = 457.0
+offset_top = 50.0
+offset_right = 592.0
+offset_bottom = 185.0
+texture = ExtResource("5_4548a")
+
+[node name="Item" type="TextureRect" parent="Item_Profiler_Window/ItemInfo/ItemSlot"]
+layout_mode = 0
+offset_left = 15.0
+offset_top = 15.0
+offset_right = 121.0
+offset_bottom = 120.0
+
+[node name="ItemTitle" type="TextureRect" parent="Item_Profiler_Window/ItemInfo"]
+layout_mode = 0
+offset_left = 51.0
+offset_top = 51.0
+offset_right = 383.8
+offset_bottom = 107.0
+texture = ExtResource("45_exp6b")
+
+[node name="ItemName" type="Label" parent="Item_Profiler_Window/ItemInfo/ItemTitle"]
+layout_mode = 0
+offset_left = 13.0
+offset_right = 328.0
+offset_bottom = 56.0
+theme_override_colors/font_color = Color(0.65098, 0.356863, 0.176471, 1)
+theme_override_font_sizes/font_size = 36
+text = "<Item Name>"
+vertical_alignment = 1
+
+[node name="ItemProperties" type="TextureRect" parent="Item_Profiler_Window/ItemInfo"]
+layout_mode = 0
+offset_left = 51.0
+offset_top = 124.0
+offset_right = 286.0
+offset_bottom = 481.2
+texture = ExtResource("46_sxmo6")
+
+[node name="UseType" type="Label" parent="Item_Profiler_Window/ItemInfo/ItemProperties"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 8.0
+offset_right = 350.0
+offset_bottom = 53.0
+theme_override_colors/font_color = Color(0.52549, 0.282353, 0.129412, 1)
+theme_override_font_sizes/font_size = 20
+text = "Use Type: <Use Type>"
+vertical_alignment = 1
+
+[node name="InteractType" type="Label" parent="Item_Profiler_Window/ItemInfo/ItemProperties"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 45.0
+offset_right = 350.0
+offset_bottom = 90.0
+theme_override_colors/font_color = Color(0.52549, 0.282353, 0.129412, 1)
+theme_override_font_sizes/font_size = 20
+text = "Interact Type: <Interact Item>"
+vertical_alignment = 1
+
+[node name="EntityDamage" type="Label" parent="Item_Profiler_Window/ItemInfo/ItemProperties"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 82.0
+offset_right = 350.0
+offset_bottom = 127.0
+theme_override_colors/font_color = Color(0.52549, 0.282353, 0.129412, 1)
+theme_override_font_sizes/font_size = 20
+text = "Entity Damage: <Entity Damage>"
+vertical_alignment = 1
+
+[node name="BlockDamage" type="Label" parent="Item_Profiler_Window/ItemInfo/ItemProperties"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 119.0
+offset_right = 350.0
+offset_bottom = 164.0
+theme_override_colors/font_color = Color(0.52549, 0.282353, 0.129412, 1)
+theme_override_font_sizes/font_size = 20
+text = "Block Damage: <Block Damage>"
+vertical_alignment = 1
+
+[node name="Durability" type="Label" parent="Item_Profiler_Window/ItemInfo/ItemProperties"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 156.0
+offset_right = 350.0
+offset_bottom = 201.0
+theme_override_colors/font_color = Color(0.52549, 0.282353, 0.129412, 1)
+theme_override_font_sizes/font_size = 20
+text = "Durability: <Durability>"
+vertical_alignment = 1
+
+[node name="Stackable" type="Label" parent="Item_Profiler_Window/ItemInfo/ItemProperties"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 193.0
+offset_right = 350.0
+offset_bottom = 238.0
+theme_override_colors/font_color = Color(0.52549, 0.282353, 0.129412, 1)
+theme_override_font_sizes/font_size = 20
+text = "Stackable: <Stackable>"
+vertical_alignment = 1
+
+[node name="SmeltEnergie" type="Label" parent="Item_Profiler_Window/ItemInfo/ItemProperties"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 230.0
+offset_right = 370.0
+offset_bottom = 275.0
+theme_override_colors/font_color = Color(0.52549, 0.282353, 0.129412, 1)
+theme_override_font_sizes/font_size = 20
+text = "Smelt Energie: <Smelting Energie>"
+vertical_alignment = 1
+
+[node name="SmeltItem" type="Label" parent="Item_Profiler_Window/ItemInfo/ItemProperties"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 267.0
+offset_right = 350.0
+offset_bottom = 312.0
+theme_override_colors/font_color = Color(0.52549, 0.282353, 0.129412, 1)
+theme_override_font_sizes/font_size = 20
+text = "Smelt Item:"
+vertical_alignment = 1
+
+[node name="ItemSlot" type="TextureButton" parent="Item_Profiler_Window/ItemInfo/ItemProperties/SmeltItem"]
+modulate = Color(0.541176, 0.541176, 0.541176, 1)
+layout_mode = 0
+offset_left = 115.0
+offset_top = 7.0
+offset_right = 150.0
+offset_bottom = 42.0
+texture_normal = ExtResource("5_4548a")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Item" type="TextureRect" parent="Item_Profiler_Window/ItemInfo/ItemProperties/SmeltItem/ItemSlot"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 31.0
+offset_bottom = 31.0
+expand_mode = 1
+
+[node name="FuelEnergie" type="Label" parent="Item_Profiler_Window/ItemInfo/ItemProperties"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 304.0
+offset_right = 350.0
+offset_bottom = 349.0
+theme_override_colors/font_color = Color(0.52549, 0.282353, 0.129412, 1)
+theme_override_font_sizes/font_size = 20
+text = "Fuel Energie: <Fuel Energie>"
+vertical_alignment = 1
+
+[node name="ItemDescription" type="TextureRect" parent="Item_Profiler_Window/ItemInfo"]
+layout_mode = 0
+offset_left = 424.0
+offset_top = 199.0
+offset_right = 591.857
+offset_bottom = 454.143
+texture = ExtResource("46_sxmo6")
+
+[node name="Description" type="Label" parent="Item_Profiler_Window/ItemInfo/ItemDescription"]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 9.0
+offset_right = 159.0
+offset_bottom = 245.0
+theme_override_colors/font_color = Color(0.52549, 0.282353, 0.129412, 1)
+theme_override_font_sizes/font_size = 15
+text = "<Description>"
+autowrap_mode = 3
+
+[node name="ShowRecipe" type="TextureButton" parent="Item_Profiler_Window/ItemInfo"]
+layout_mode = 0
+offset_left = 492.0
+offset_top = 474.0
+offset_right = 592.0
+offset_bottom = 574.0
+texture_normal = ExtResource("47_o2x67")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="ItemRecipe" type="Control" parent="Item_Profiler_Window"]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Back" type="TextureButton" parent="Item_Profiler_Window/ItemRecipe"]
+layout_mode = 0
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 43.0
+offset_bottom = 43.0
+texture_normal = ExtResource("22_cmc3f")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="OutputSlot" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 0
+offset_left = 283.0
+offset_top = 383.5
+offset_right = 363.0
+offset_bottom = 483.5
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/OutputSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/OutputSlot/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/OutputSlot"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Item_Profiler_Window/ItemRecipe/OutputSlot/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Arrow" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe"]
+layout_mode = 0
+offset_left = 283.0
+offset_top = 279.265
+offset_right = 363.0
+offset_bottom = 369.265
+texture = ExtResource("23_64ljk")
+
+[node name="InputSlots" type="Control" parent="Item_Profiler_Window/ItemRecipe"]
+anchors_preset = 0
+offset_left = 28.5
+offset_top = 54.5
+offset_right = 619.5
+offset_bottom = 260.5
+
+[node name="InputSlot1" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_top = 1.0
+offset_right = 80.0
+offset_bottom = 101.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot1"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot1/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot1"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot1/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot2" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 85.0
+offset_top = 1.0
+offset_right = 165.0
+offset_bottom = 101.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot2"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot2/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot2"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot2/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot3" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 170.0
+offset_top = 1.0
+offset_right = 250.0
+offset_bottom = 101.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot3"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot3/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot3"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot3/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot4" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 255.0
+offset_top = 1.0
+offset_right = 335.0
+offset_bottom = 101.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot4"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot4/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot4"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot4/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot5" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 340.0
+offset_top = 1.0
+offset_right = 420.0
+offset_bottom = 101.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot5"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot5/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot5"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot5/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot6" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 425.0
+offset_top = 1.0
+offset_right = 505.0
+offset_bottom = 101.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot6"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot6/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot6"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot6/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot7" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 510.0
+offset_top = 1.0
+offset_right = 590.0
+offset_bottom = 101.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot7"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot7/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot7"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot7/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot8" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_top = 105.0
+offset_right = 80.0
+offset_bottom = 205.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot8"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot8/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot8"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot8/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot9" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 85.0
+offset_top = 105.0
+offset_right = 165.0
+offset_bottom = 205.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot9"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot9/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot9"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot9/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot10" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 170.0
+offset_top = 105.0
+offset_right = 250.0
+offset_bottom = 205.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot10"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot10/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot10"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot10/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot11" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 255.0
+offset_top = 105.0
+offset_right = 335.0
+offset_bottom = 205.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot11"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot11/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot11"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot11/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot12" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 340.0
+offset_top = 105.0
+offset_right = 420.0
+offset_bottom = 205.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot12"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot12/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot12"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot12/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot13" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 425.0
+offset_top = 105.0
+offset_right = 505.0
+offset_bottom = 205.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot13"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot13/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot13"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot13/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InputSlot14" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+offset_left = 510.0
+offset_top = 105.0
+offset_right = 590.0
+offset_bottom = 205.0
+texture = ExtResource("4_5t1co")
+
+[node name="ItemSlot" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot14"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 74.0
+offset_bottom = 74.0
+texture = ExtResource("5_4548a")
+
+[node name="TextureRect" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot14/ItemSlot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 61.0
+offset_bottom = 61.0
+
+[node name="Addon" type="TextureRect" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot14"]
+layout_mode = 0
+offset_left = 5.8
+offset_top = 76.0
+offset_right = 73.8
+offset_bottom = 95.0
+texture = ExtResource("6_188j0")
+
+[node name="Label" type="Label" parent="Item_Profiler_Window/ItemRecipe/InputSlots/InputSlot14/Addon"]
+layout_mode = 0
+offset_right = 68.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 8
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PauseButton" type="TouchScreenButton" parent="."]
+position = Vector2(17, 17)
+scale = Vector2(2.2, 2.2)
+texture_normal = ExtResource("16_gkdu8")
+
+[node name="Pause" type="TextureRect" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 196.0
+offset_top = 94.0
+offset_right = 962.0
+offset_bottom = 554.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("17_2d4my")
+
+[node name="Label" type="Label" parent="Pause"]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 31.0
+offset_right = 767.0
+offset_bottom = 127.0
+theme_override_colors/font_color = Color(0.815686, 0.815686, 0.815686, 1)
+theme_override_font_sizes/font_size = 66
+text = "Pause"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Close" type="TouchScreenButton" parent="Pause"]
+position = Vector2(-20, -20)
+scale = Vector2(4.5, 4.5)
+texture_normal = ExtResource("3_xsoex")
+
+[node name="Settings" type="TouchScreenButton" parent="Pause"]
+position = Vector2(600, 310)
+scale = Vector2(4, 4)
+texture_normal = ExtResource("16_0k7hi")
+
+[node name="Exit" type="TextureButton" parent="Pause"]
+self_modulate = Color(0.662745, 0.372549, 0.196078, 1)
+layout_mode = 0
+offset_left = 262.0
+offset_top = 180.0
+offset_right = 518.5
+offset_bottom = 283.5
+texture_normal = ExtResource("18_n63y3")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Label" type="Label" parent="Pause/Exit"]
+layout_mode = 0
+offset_left = -1.0
+offset_top = -5.0
+offset_right = 256.0
+offset_bottom = 104.0
+theme_override_colors/font_color = Color(0.815686, 0.815686, 0.815686, 1)
+theme_override_font_sizes/font_size = 40
+text = "Exit"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Save & Exit" type="TextureButton" parent="Pause"]
+self_modulate = Color(0.662745, 0.372549, 0.196078, 1)
+layout_mode = 0
+offset_left = 262.0
+offset_top = 300.0
+offset_right = 518.5
+offset_bottom = 403.5
+texture_normal = ExtResource("18_n63y3")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Label" type="Label" parent="Pause/Save & Exit"]
+layout_mode = 0
+offset_left = -1.0
+offset_top = -5.0
+offset_right = 256.0
+offset_bottom = 104.0
+theme_override_colors/font_color = Color(0.815686, 0.815686, 0.815686, 1)
+theme_override_font_sizes/font_size = 40
+text = "Save & Exit"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="InventoryButton" to="." method="open_inv_UI"]
+[connection signal="pressed" from="ActionPanel/Arrow_UP" to="." method="_on_action_up_pressed"]
+[connection signal="pressed" from="ActionPanel/Arrow_RIGHT" to="." method="_on_action_right_pressed"]
+[connection signal="pressed" from="ActionPanel/Arrow_LEFT" to="." method="_on_action_left_pressed"]
+[connection signal="pressed" from="ActionPanel/Arrow_DOWN" to="." method="_on_action_down_pressed"]
+[connection signal="pressed" from="Hotbar/Slot1" to="." method="_on_hotbar_slot_1_pressed"]
+[connection signal="pressed" from="Hotbar/Slot2" to="." method="_on_hotbar_slot_2_pressed"]
+[connection signal="pressed" from="Hotbar/Slot3" to="." method="_on_hotbar_slot_3_pressed"]
+[connection signal="pressed" from="Interact Panel/InteractButton" to="." method="_on_interact_button_pressed"]
+[connection signal="pressed" from="Interact Panel/RotateLeft" to="." method="_on_rotate_left_pressed"]
+[connection signal="pressed" from="Interact Panel/RotateRight" to="." method="_on_rotate_right_pressed"]
+[connection signal="pressed" from="Inventory/Close" to="." method="close_inv_UI"]
+[connection signal="pressed" from="Chest/Open_Chest" to="." method="open_chest"]
+[connection signal="pressed" from="Crafting/OnlyCraftable" to="." method="toggle_only_craftable"]
+[connection signal="pressed" from="Crafting/ScrollContainer/GridContainer/Prefab" to="Crafting/ScrollContainer/GridContainer/Prefab" method="_on_pressed"]
+[connection signal="pressed" from="Crafting/Recipe_Details/Craft" to="." method="craft_item"]
+[connection signal="pressed" from="Rocket_Window/ScrollContainer/Scrollable/Azuria" to="Rocket_Window/ScrollContainer/Scrollable/Azuria" method="_on_pressed"]
+[connection signal="pressed" from="Rocket_Window/ScrollContainer/Scrollable/Huvle" to="Rocket_Window/ScrollContainer/Scrollable/Huvle" method="_on_pressed"]
+[connection signal="pressed" from="Rocket_Window/ScrollContainer/Scrollable/Bokuta" to="Rocket_Window/ScrollContainer/Scrollable/Bokuta" method="_on_pressed"]
+[connection signal="pressed" from="Rocket_Window/Close" to="." method="toggle_rocket_window"]
+[connection signal="pressed" from="Rocket_Window/Tab/Travel" to="." method="fly_to_planet"]
+[connection signal="pressed" from="Item_Profiler_Window/ItemInfo/Close" to="." method="toggele_inspector"]
+[connection signal="pressed" from="Item_Profiler_Window/ItemInfo/ItemProperties/SmeltItem/ItemSlot" to="." method="inspect_smeltin_item"]
+[connection signal="pressed" from="Item_Profiler_Window/ItemInfo/ShowRecipe" to="." method="show_inspectin_recipe"]
+[connection signal="pressed" from="Item_Profiler_Window/ItemRecipe/Back" to="." method="toggle_inspecting_recipe"]
+[connection signal="pressed" from="PauseButton" to="." method="toggle_pause"]
+[connection signal="pressed" from="Pause/Close" to="." method="toggle_pause"]
+[connection signal="pressed" from="Pause/Exit" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="Pause/Save & Exit" to="." method="_on_save_and_exit_pressed"]

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=5 format=3 uid="uid://p47ehuphdsuu"]
+
+[ext_resource type="Resource" uid="uid://vyyf1v70t4to" path="res://Scriptable Object Recources/Items/Resources/Ingot_Iron.tres" id="1_c5sl8"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/Recipe.gd" id="1_pj7ur"]
+[ext_resource type="Resource" uid="uid://bbouamf0n667v" path="res://Scriptable Object Recources/Items/Resources/Wooden_Loggs.tres" id="2_p44e6"]
+[ext_resource type="Resource" uid="uid://mixoobauhr17" path="res://Scriptable Object Recources/Items/Tools/Iron/Iron_Axe.tres" id="3_qjk5j"]
+
+[resource]
+script = ExtResource("1_pj7ur")
+output_item = ExtResource("3_qjk5j")
+output_count = 1
+input_item = Array[Resource("res://Scriptable Object Recources/Recources/item.gd")]([ExtResource("1_c5sl8"), ExtResource("2_p44e6")])
+input_count = Array[int]([4, 3])

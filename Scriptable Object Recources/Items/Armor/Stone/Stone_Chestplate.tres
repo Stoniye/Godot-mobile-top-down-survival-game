@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://cyv5apjh4c365"]
+
+[ext_resource type="Texture2D" uid="uid://drlq4ga7np46p" path="res://Textures/UI/Items/Armor/Stone_Chestplate.png" id="1_fcrjk"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="2_eyjdg"]
+
+[resource]
+script = ExtResource("2_eyjdg")
+image = ExtResource("1_fcrjk")
+name = "Stone Chestplate"
+use_type = "Chestplate"
+itemtype_for_interacting = ""
+damage_entity = 23
+damage_block = 0
+durability = 20
+stackable = false
+smelt_energie = 0
+fuel_energie = 0
+description = "A very Strong Armor made out of Stone, but its sadly very fragile"

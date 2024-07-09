@@ -1,0 +1,71 @@
+[gd_scene load_steps=7 format=3 uid="uid://d0nym7lii1avq"]
+
+[ext_resource type="Texture2D" uid="uid://cy2mxt7cqyety" path="res://Textures/UI/Items/Tools/Iron_Pickaxe.png" id="1_0ooij"]
+[ext_resource type="Texture2D" uid="uid://b738cipf5qmx7" path="res://Textures/UI/General UI/Circle.png" id="1_lv5ut"]
+[ext_resource type="Script" path="res://Scrips/UI/ItemSlot.gd" id="3_0vt43"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dvlaj"]
+size = Vector2(14, 16)
+
+[sub_resource type="Animation" id="Animation_ttn8f"]
+resource_name = "floating"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ItemImage:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, -4)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Shadow:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0.01975, 0.00775001), Vector2(0.015, 0.006)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_m8oto"]
+_data = {
+"floating": SubResource("Animation_ttn8f")
+}
+
+[node name="Droped_Item" type="Node2D"]
+
+[node name="Shadow" type="Sprite2D" parent="."]
+self_modulate = Color(0, 0, 0, 0.443137)
+position = Vector2(0, 7)
+scale = Vector2(0.01975, 0.00775001)
+texture = ExtResource("1_lv5ut")
+
+[node name="ItemImage" type="Sprite2D" parent="."]
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_0ooij")
+
+[node name="Area2D" type="Area2D" parent="." groups=["Droped_Item"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_dvlaj")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_m8oto")
+}
+autoplay = "floating"
+
+[node name="Item" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("3_0vt43")

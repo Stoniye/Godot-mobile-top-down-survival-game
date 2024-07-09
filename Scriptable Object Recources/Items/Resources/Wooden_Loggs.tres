@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://bbouamf0n667v"]
+
+[ext_resource type="Texture2D" uid="uid://baaw5ki3atech" path="res://Textures/UI/Items/Resources/Wooden_Loggs.png" id="1_6c40v"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="1_uc6us"]
+
+[resource]
+script = ExtResource("1_uc6us")
+image = ExtResource("1_6c40v")
+name = "Wooden Loggs"
+use_type = "Item"
+itemtype_for_interacting = ""
+damage_entity = 0
+damage_block = 0
+durability = 0
+stackable = true
+Equipable = false
+smelt_energie = 0
+fuel_energie = 1

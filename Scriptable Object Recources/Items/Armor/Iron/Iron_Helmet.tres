@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://c8n5b4gfvby87"]
+
+[ext_resource type="Texture2D" uid="uid://l1lqo3pr014s" path="res://Textures/UI/Items/Armor/Iron_Helmet.png" id="1_gfc3y"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="1_xamv4"]
+
+[resource]
+script = ExtResource("1_xamv4")
+image = ExtResource("1_gfc3y")
+name = "Iron Helmet"
+use_type = "Helmet"
+itemtype_for_interacting = ""
+damage_entity = 7
+damage_block = 0
+durability = 70
+stackable = false
+smelt_energie = 0
+fuel_energie = 0
+description = "A Strong Armor made out of Iron"

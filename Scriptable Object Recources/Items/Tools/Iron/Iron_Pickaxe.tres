@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://cx0unbnr5fr0k"]
+
+[ext_resource type="Texture2D" uid="uid://cy2mxt7cqyety" path="res://Textures/UI/Items/Tools/Iron_Pickaxe.png" id="1_1lcef"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="2_cv2sg"]
+
+[resource]
+script = ExtResource("2_cv2sg")
+image = ExtResource("1_1lcef")
+name = "Iron Pickaxe"
+use_type = "Mining"
+itemtype_for_interacting = ""
+damage_entity = 0
+damage_block = 10
+durability = 40
+stackable = false
+Equipable = false
+drop_other = false
+smelt_energie = 0
+fuel_energie = 0

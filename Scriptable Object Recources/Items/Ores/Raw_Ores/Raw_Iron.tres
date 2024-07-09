@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Item" load_steps=4 format=3 uid="uid://0sk1n6fckwg0"]
+
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="1_ekt7r"]
+[ext_resource type="Texture2D" uid="uid://d13j1qgmsmgp2" path="res://Textures/UI/Items/Ores/Raw_Iron.png" id="1_w25qv"]
+[ext_resource type="Resource" uid="uid://vyyf1v70t4to" path="res://Scriptable Object Recources/Items/Resources/Ingot_Iron.tres" id="3_wjdib"]
+
+[resource]
+script = ExtResource("1_ekt7r")
+image = ExtResource("1_w25qv")
+name = "Raw Iron"
+use_type = "Item"
+itemtype_for_interacting = "Mining"
+damage_entity = 0
+damage_block = 0
+durability = 0
+stackable = true
+Equipable = false
+smelt_energie = 5
+smelt_item = ExtResource("3_wjdib")
+fuel_energie = 0

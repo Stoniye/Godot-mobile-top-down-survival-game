@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="openable_chest" load_steps=7 format=3 uid="uid://b0587xc8ffp28"]
+
+[ext_resource type="Resource" uid="uid://b1v0tdx24tqo2" path="res://Scriptable Object Recources/Cosmetics/Hat/Leather_Hat.tres" id="1_ba1rr"]
+[ext_resource type="Resource" uid="uid://dowmtfnkaljat" path="res://Scriptable Object Recources/Cosmetics/Hat/Propeller_Cap.tres" id="2_o4bi6"]
+[ext_resource type="Resource" uid="uid://cx2twwvb5ur7e" path="res://Scriptable Object Recources/Cosmetics/Title/Addicted.tres" id="3_1yj7e"]
+[ext_resource type="Resource" uid="uid://c0qn1r81rl45d" path="res://Scriptable Object Recources/Cosmetics/Hat/Red_Flower.tres" id="3_8d6am"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/openable_chest.gd" id="4_8i383"]
+[ext_resource type="Resource" uid="uid://c4ke2g33gh3yn" path="res://Scriptable Object Recources/Cosmetics/Title/Silly.tres" id="5_ve0jl"]
+
+[resource]
+script = ExtResource("4_8i383")
+item = Array[Resource("res://Scriptable Object Recources/Recources/Cosemtic.gd")]([ExtResource("1_ba1rr"), ExtResource("2_o4bi6"), ExtResource("3_1yj7e"), ExtResource("3_8d6am"), ExtResource("3_1yj7e"), ExtResource("5_ve0jl")])
+min_items = 2
+max_items = 3

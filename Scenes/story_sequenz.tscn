@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=3 uid="uid://q5a2brcy6f15"]
+
+[ext_resource type="Script" path="res://Scrips/Story_Sequenz/Story_Sequenz.gd" id="1_s6j58"]
+
+[node name="StorySequenz" type="Node2D"]
+script = ExtResource("1_s6j58")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 300.0
+offset_top = 200.0
+offset_right = 836.0
+offset_bottom = 444.0
+theme_override_font_sizes/font_size = 51
+text = "TO-DO: Story Sequenz"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Skip" type="TextureButton" parent="."]
+offset_left = 900.0
+offset_top = 540.0
+offset_right = 1100.0
+offset_bottom = 610.0
+
+[node name="Label" type="Label" parent="Skip"]
+layout_mode = 0
+offset_right = 200.0
+offset_bottom = 70.0
+theme_override_font_sizes/font_size = 26
+text = "Touch to Skip"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="Skip" to="." method="skip_sequenz"]

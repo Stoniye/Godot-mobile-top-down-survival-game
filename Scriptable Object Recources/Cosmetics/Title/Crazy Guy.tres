@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Cosmetic" load_steps=3 format=3 uid="uid://btc2x6xne8jys"]
+
+[ext_resource type="Texture2D" uid="uid://dp4vwxw1fmv0v" path="res://Textures/UI/Cosmetics/Title/Tag.png" id="1_o4x5q"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/Cosemtic.gd" id="2_kgdv8"]
+
+[resource]
+script = ExtResource("2_kgdv8")
+image = ExtResource("1_o4x5q")
+name = "Pixel Pilot"
+type = "Title"
+Probability = 10

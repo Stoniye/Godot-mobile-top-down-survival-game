@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Cosmetic" load_steps=3 format=3 uid="uid://cqdfubdmrtifx"]
+
+[ext_resource type="Texture2D" uid="uid://dp4vwxw1fmv0v" path="res://Textures/UI/Cosmetics/Title/Tag.png" id="1_lcyn2"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/Cosemtic.gd" id="2_a3hi7"]
+
+[resource]
+script = ExtResource("2_a3hi7")
+image = ExtResource("1_lcyn2")
+name = "Sweater"
+type = "Title"
+Probability = 10

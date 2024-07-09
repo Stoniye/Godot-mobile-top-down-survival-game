@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://gi75nj7rgwys"]
+
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="1_7d3bg"]
+[ext_resource type="Texture2D" uid="uid://b7d6ahqr3k4ji" path="res://Textures/UI/Items/Ores/Coal.png" id="1_y4t2c"]
+
+[resource]
+script = ExtResource("1_7d3bg")
+image = ExtResource("1_y4t2c")
+name = "Coal"
+use_type = "Item"
+itemtype_for_interacting = "Mining"
+damage_entity = 0
+damage_block = 0
+durability = 0
+stackable = true
+Equipable = false
+smelt_energie = 0
+fuel_energie = 5

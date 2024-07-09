@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://qk85q8rgorvx"]
+
+[ext_resource type="Texture2D" uid="uid://c14pvqr7fetd3" path="res://Textures/UI/Items/EnergyOrbs/Armor_Core.png" id="1_a3mek"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="1_bhqh2"]
+
+[resource]
+script = ExtResource("1_bhqh2")
+image = ExtResource("1_a3mek")
+name = "Armor Core"
+use_type = "EnergyOrb"
+itemtype_for_interacting = ""
+damage_entity = 8
+damage_block = 1
+durability = 0
+stackable = false
+smelt_energie = 0
+fuel_energie = 0
+description = "This Orb gives you some extra Armor points"

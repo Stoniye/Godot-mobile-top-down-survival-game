@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Cosmetic" load_steps=3 format=3 uid="uid://bq5wnqgboe4wr"]
+
+[ext_resource type="Texture2D" uid="uid://dva4q7pivy55a" path="res://Textures/UI/Cosmetics/Hat/Circling_Hearts.png" id="1_chyat"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/Cosemtic.gd" id="2_diuwq"]
+
+[resource]
+script = ExtResource("2_diuwq")
+image = ExtResource("1_chyat")
+name = "Circling Hearts"
+type = "Hat"
+Probability = 0

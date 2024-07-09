@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://btyjniaro3u25"]
+
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="1_4gcog"]
+[ext_resource type="Texture2D" uid="uid://oudob72fvk6u" path="res://Textures/UI/Items/Resources/Ingot_Copper.png" id="1_q8kcm"]
+
+[resource]
+script = ExtResource("1_4gcog")
+image = ExtResource("1_q8kcm")
+name = "Copper Ingot"
+use_type = "Item"
+itemtype_for_interacting = "Mining"
+damage_entity = 0
+damage_block = 0
+durability = 0
+stackable = true
+Equipable = false
+smelt_energie = 0
+fuel_energie = 0

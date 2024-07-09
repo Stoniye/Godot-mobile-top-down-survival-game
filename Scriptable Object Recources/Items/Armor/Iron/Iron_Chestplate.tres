@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://b5v6uj3gtkjan"]
+
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="1_47yj6"]
+[ext_resource type="Texture2D" uid="uid://bnjttssbc2pto" path="res://Textures/UI/Items/Armor/Iron_Chestplate.png" id="1_ft8ek"]
+
+[resource]
+script = ExtResource("1_47yj6")
+image = ExtResource("1_ft8ek")
+name = "Iron Chestplate"
+use_type = "Chestplate"
+itemtype_for_interacting = ""
+damage_entity = 15
+damage_block = 0
+durability = 70
+stackable = false
+smelt_energie = 0
+fuel_energie = 0
+description = "A Strong Armor made out of Iron"

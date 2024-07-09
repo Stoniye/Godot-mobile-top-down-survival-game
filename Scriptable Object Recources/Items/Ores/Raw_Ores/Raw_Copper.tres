@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Item" load_steps=4 format=3 uid="uid://8v414gyl8e3i"]
+
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="1_tkqhx"]
+[ext_resource type="Texture2D" uid="uid://b8a8o3hidclhp" path="res://Textures/UI/Items/Ores/Raw_Copper.png" id="1_vc70m"]
+[ext_resource type="Resource" uid="uid://btyjniaro3u25" path="res://Scriptable Object Recources/Items/Resources/Ingot_Copper.tres" id="3_5sbwu"]
+
+[resource]
+script = ExtResource("1_tkqhx")
+image = ExtResource("1_vc70m")
+name = "Raw Copper"
+use_type = "Item"
+itemtype_for_interacting = "Mining"
+damage_entity = 0
+damage_block = 0
+durability = 0
+stackable = true
+Equipable = false
+smelt_energie = 5
+smelt_item = ExtResource("3_5sbwu")
+fuel_energie = 0

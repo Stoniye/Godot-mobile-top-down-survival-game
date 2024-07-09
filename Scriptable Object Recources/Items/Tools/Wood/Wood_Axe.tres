@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://dxcr7agi5b8b8"]
+
+[ext_resource type="Texture2D" uid="uid://c8jd02olfegk4" path="res://Textures/UI/Items/Tools/Wood_Axe.png" id="1_b6eko"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="2_hv8me"]
+
+[resource]
+script = ExtResource("2_hv8me")
+image = ExtResource("1_b6eko")
+name = "Wood Axe"
+use_type = "Logging"
+itemtype_for_interacting = ""
+damage_entity = 0
+damage_block = 3
+durability = 15
+stackable = false
+Equipable = false
+smelt_energie = 0
+fuel_energie = 0

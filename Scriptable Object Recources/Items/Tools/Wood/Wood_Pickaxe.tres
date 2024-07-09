@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://ci07o102wkop7"]
+
+[ext_resource type="Texture2D" uid="uid://byew3bcv1u0cc" path="res://Textures/UI/Items/Tools/Wood_Pickaxe.png" id="1_tglm2"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="2_6caul"]
+
+[resource]
+script = ExtResource("2_6caul")
+image = ExtResource("1_tglm2")
+name = "Wood Pickaxe"
+use_type = "Mining"
+itemtype_for_interacting = ""
+damage_entity = 0
+damage_block = 3
+durability = 12
+stackable = false
+Equipable = false
+smelt_energie = 0
+fuel_energie = 0

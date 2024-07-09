@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://cyni7rxabbuik"]
+
+[ext_resource type="Texture2D" uid="uid://0fcaaw35thb" path="res://Textures/UI/Items/Tools/Iron_Sword.png" id="1_uutpf"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="2_0eoc5"]
+
+[resource]
+script = ExtResource("2_0eoc5")
+image = ExtResource("1_uutpf")
+name = "Iron Sword"
+use_type = "Fighting"
+itemtype_for_interacting = ""
+damage_entity = 20
+damage_block = 0
+durability = 40
+stackable = false
+Equipable = false
+smelt_energie = 0
+fuel_energie = 0

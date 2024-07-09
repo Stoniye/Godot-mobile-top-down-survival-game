@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=5 format=3 uid="uid://cfiy7xpih8cm4"]
+
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/Recipe.gd" id="1_rn8uy"]
+[ext_resource type="Resource" uid="uid://da0cid8n2h1v8" path="res://Scriptable Object Recources/Items/Blocks/Building/Wood/Wood_Planks.tres" id="1_uu2dh"]
+[ext_resource type="Resource" uid="uid://bbouamf0n667v" path="res://Scriptable Object Recources/Items/Resources/Wooden_Loggs.tres" id="2_fo8u4"]
+[ext_resource type="Resource" uid="uid://dxcr7agi5b8b8" path="res://Scriptable Object Recources/Items/Tools/Wood/Wood_Axe.tres" id="3_gcvug"]
+
+[resource]
+script = ExtResource("1_rn8uy")
+output_item = ExtResource("3_gcvug")
+output_count = 1
+input_item = Array[Resource("res://Scriptable Object Recources/Recources/item.gd")]([ExtResource("1_uu2dh"), ExtResource("2_fo8u4")])
+input_count = Array[int]([4, 3])

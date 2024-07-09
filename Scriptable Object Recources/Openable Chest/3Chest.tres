@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="openable_chest" load_steps=12 format=3 uid="uid://cjm58f52v8o4w"]
+
+[ext_resource type="Resource" uid="uid://b1v0tdx24tqo2" path="res://Scriptable Object Recources/Cosmetics/Hat/Leather_Hat.tres" id="1_336jx"]
+[ext_resource type="Resource" uid="uid://dowmtfnkaljat" path="res://Scriptable Object Recources/Cosmetics/Hat/Propeller_Cap.tres" id="2_unn80"]
+[ext_resource type="Resource" uid="uid://c0qn1r81rl45d" path="res://Scriptable Object Recources/Cosmetics/Hat/Red_Flower.tres" id="3_7nkqp"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/openable_chest.gd" id="4_et6k1"]
+[ext_resource type="Resource" uid="uid://w1wt68ujhdjo" path="res://Scriptable Object Recources/Cosmetics/Hat/Smal_Cylinder.tres" id="4_ulu0y"]
+[ext_resource type="Resource" uid="uid://cx2twwvb5ur7e" path="res://Scriptable Object Recources/Cosmetics/Title/Addicted.tres" id="5_q1u16"]
+[ext_resource type="Resource" uid="uid://c4ke2g33gh3yn" path="res://Scriptable Object Recources/Cosmetics/Title/Silly.tres" id="6_mw3dm"]
+[ext_resource type="Resource" uid="uid://cqdfubdmrtifx" path="res://Scriptable Object Recources/Cosmetics/Title/Sweater.tres" id="7_yjucw"]
+[ext_resource type="Resource" uid="uid://b3ohcsaa8cqsb" path="res://Scriptable Object Recources/Cosmetics/Title/Farmer.tres" id="8_ahkbv"]
+[ext_resource type="Resource" uid="uid://b0jtoswon0ujw" path="res://Scriptable Object Recources/Cosmetics/Title/Crazy Dude.tres" id="9_yn2v8"]
+[ext_resource type="Resource" uid="uid://b6t743sc3xny3" path="res://Scriptable Object Recources/Cosmetics/Title/Pixel_Pilot.tres" id="10_5qo7f"]
+
+[resource]
+script = ExtResource("4_et6k1")
+item = Array[Resource("res://Scriptable Object Recources/Recources/Cosemtic.gd")]([ExtResource("1_336jx"), ExtResource("2_unn80"), ExtResource("3_7nkqp"), ExtResource("5_q1u16"), ExtResource("6_mw3dm"), ExtResource("7_yjucw"), ExtResource("4_ulu0y"), ExtResource("8_ahkbv"), ExtResource("9_yn2v8"), ExtResource("10_5qo7f")])
+min_items = 1
+max_items = 3

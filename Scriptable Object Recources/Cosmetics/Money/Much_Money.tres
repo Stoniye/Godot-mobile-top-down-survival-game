@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Cosmetic" load_steps=3 format=3 uid="uid://pk8bggv8cu1c"]
+
+[ext_resource type="Texture2D" uid="uid://bnx24hf30shtm" path="res://Textures/Menü/Coins.png" id="1_j3ahp"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/Cosemtic.gd" id="2_jugnh"]
+
+[resource]
+script = ExtResource("2_jugnh")
+image = ExtResource("1_j3ahp")
+name = "Much Money"
+type = "Coins"
+Probability = 20

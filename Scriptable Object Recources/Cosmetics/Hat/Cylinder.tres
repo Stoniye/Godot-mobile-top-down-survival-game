@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Cosmetic" load_steps=3 format=3 uid="uid://nxmmm6ywpw84"]
+
+[ext_resource type="Texture2D" uid="uid://oa8orwovny52" path="res://Textures/UI/Cosmetics/Hat/Cylinder.png" id="1_ppd7q"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/Cosemtic.gd" id="2_tuya1"]
+
+[resource]
+script = ExtResource("2_tuya1")
+image = ExtResource("1_ppd7q")
+name = "Cylinder"
+type = "Hat"
+Probability = 8

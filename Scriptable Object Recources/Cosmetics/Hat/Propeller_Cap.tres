@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Cosmetic" load_steps=3 format=3 uid="uid://dowmtfnkaljat"]
+
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/Cosemtic.gd" id="1_cn3uk"]
+[ext_resource type="Texture2D" uid="uid://cgnx8s4hgvqca" path="res://Textures/UI/Cosmetics/Hat/Propeller_Cap.png" id="1_q7bj1"]
+
+[resource]
+script = ExtResource("1_cn3uk")
+image = ExtResource("1_q7bj1")
+name = "Propeller Cap"
+type = "Hat"
+Probability = 25

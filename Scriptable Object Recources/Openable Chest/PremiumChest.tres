@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="openable_chest" load_steps=22 format=3 uid="uid://cs5vpcxpy81ma"]
+
+[ext_resource type="Resource" uid="uid://b1v0tdx24tqo2" path="res://Scriptable Object Recources/Cosmetics/Hat/Leather_Hat.tres" id="1_r3rau"]
+[ext_resource type="Resource" uid="uid://dowmtfnkaljat" path="res://Scriptable Object Recources/Cosmetics/Hat/Propeller_Cap.tres" id="2_4co6q"]
+[ext_resource type="Resource" uid="uid://nxmmm6ywpw84" path="res://Scriptable Object Recources/Cosmetics/Hat/Cylinder.tres" id="3_rcvjk"]
+[ext_resource type="Resource" uid="uid://w1wt68ujhdjo" path="res://Scriptable Object Recources/Cosmetics/Hat/Smal_Cylinder.tres" id="4_ev7s2"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/openable_chest.gd" id="4_x0rq8"]
+[ext_resource type="Resource" uid="uid://c0qn1r81rl45d" path="res://Scriptable Object Recources/Cosmetics/Hat/Red_Flower.tres" id="5_5lw1a"]
+[ext_resource type="Resource" uid="uid://douyj4lqauiur" path="res://Scriptable Object Recources/Cosmetics/Item/Raw_Iron/Raw_Iron_Axe.tres" id="6_7jk3p"]
+[ext_resource type="Resource" uid="uid://cx2twwvb5ur7e" path="res://Scriptable Object Recources/Cosmetics/Title/Addicted.tres" id="7_la2jt"]
+[ext_resource type="Resource" uid="uid://cvhhsp6u510cn" path="res://Scriptable Object Recources/Cosmetics/Title/Automation Master.tres" id="8_hbj14"]
+[ext_resource type="Resource" uid="uid://b0jtoswon0ujw" path="res://Scriptable Object Recources/Cosmetics/Title/Crazy Dude.tres" id="9_8m5d0"]
+[ext_resource type="Resource" uid="uid://btc2x6xne8jys" path="res://Scriptable Object Recources/Cosmetics/Title/Crazy Guy.tres" id="10_mxpw1"]
+[ext_resource type="Resource" uid="uid://b3ohcsaa8cqsb" path="res://Scriptable Object Recources/Cosmetics/Title/Farmer.tres" id="11_8coy4"]
+[ext_resource type="Resource" uid="uid://dt7hv6uwm73w8" path="res://Scriptable Object Recources/Cosmetics/Title/Miner.tres" id="12_ymmxi"]
+[ext_resource type="Resource" uid="uid://b6t743sc3xny3" path="res://Scriptable Object Recources/Cosmetics/Title/Pixel_Pilot.tres" id="13_ao5dj"]
+[ext_resource type="Resource" uid="uid://c4ke2g33gh3yn" path="res://Scriptable Object Recources/Cosmetics/Title/Silly.tres" id="14_vtmys"]
+[ext_resource type="Resource" uid="uid://cqdfubdmrtifx" path="res://Scriptable Object Recources/Cosmetics/Title/Sweater.tres" id="15_yvdau"]
+[ext_resource type="Resource" uid="uid://dqt2tle0sluaf" path="res://Scriptable Object Recources/Cosmetics/Item/Raw_Iron/Raw_Iron_Chestplate.tres" id="16_badb4"]
+[ext_resource type="Resource" uid="uid://6eu5afv4mqh0" path="res://Scriptable Object Recources/Cosmetics/Item/Raw_Iron/Raw_Iron_Helmet.tres" id="17_mov26"]
+[ext_resource type="Resource" uid="uid://dkv8ascouf43q" path="res://Scriptable Object Recources/Cosmetics/Item/Raw_Iron/Raw_Iron_Pickaxe.tres" id="18_pcpg4"]
+[ext_resource type="Resource" uid="uid://b8grpim1pmovl" path="res://Scriptable Object Recources/Cosmetics/Item/Raw_Iron/Raw_Iron_Sword.tres" id="19_trfmg"]
+[ext_resource type="Resource" uid="uid://dl6jv1sgf2pef" path="res://Scriptable Object Recources/Cosmetics/Title/Master.tres" id="20_40oj0"]
+
+[resource]
+script = ExtResource("4_x0rq8")
+item = Array[Resource("res://Scriptable Object Recources/Recources/Cosemtic.gd")]([ExtResource("1_r3rau"), ExtResource("2_4co6q"), ExtResource("4_ev7s2"), ExtResource("5_5lw1a"), ExtResource("3_rcvjk"), ExtResource("7_la2jt"), ExtResource("8_hbj14"), ExtResource("9_8m5d0"), ExtResource("10_mxpw1"), ExtResource("11_8coy4"), ExtResource("12_ymmxi"), ExtResource("13_ao5dj"), ExtResource("14_vtmys"), ExtResource("15_yvdau"), ExtResource("6_7jk3p"), ExtResource("16_badb4"), ExtResource("17_mov26"), ExtResource("18_pcpg4"), ExtResource("19_trfmg"), ExtResource("20_40oj0")])
+min_items = 3
+max_items = 5

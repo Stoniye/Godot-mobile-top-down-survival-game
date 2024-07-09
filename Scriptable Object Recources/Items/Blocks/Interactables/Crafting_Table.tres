@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://bareelbqgbm5k"]
+
+[ext_resource type="Texture2D" uid="uid://ck32iwr63mmbc" path="res://Textures/UI/Items/Blocks/Crafiting_Table.png" id="1_3r0lc"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="1_4muhq"]
+
+[resource]
+script = ExtResource("1_4muhq")
+image = ExtResource("1_3r0lc")
+name = "Crafting Table"
+use_type = "Placing"
+itemtype_for_interacting = "Logging"
+damage_entity = 0
+damage_block = 0
+durability = 10
+stackable = true
+smelt_energie = 0
+fuel_energie = 10
+description = "You can Craft some fun things with that"

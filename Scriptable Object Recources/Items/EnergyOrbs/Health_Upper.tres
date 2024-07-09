@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://b8a7xagqcp3bm"]
+
+[ext_resource type="Texture2D" uid="uid://b0xrktm7fdbj4" path="res://Textures/UI/Items/EnergyOrbs/Health_Upper.png" id="1_s41q2"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="2_yett8"]
+
+[resource]
+script = ExtResource("2_yett8")
+image = ExtResource("1_s41q2")
+name = "Health Upper"
+use_type = "EnergyOrb"
+itemtype_for_interacting = ""
+damage_entity = 50
+damage_block = 2
+durability = 0
+stackable = false
+smelt_energie = 0
+fuel_energie = 0
+description = "This Orb gives you a bit more maximal Health"

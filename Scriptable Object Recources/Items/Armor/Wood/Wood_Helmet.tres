@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://k8s3x7eh6v6a"]
+
+[ext_resource type="Texture2D" uid="uid://c3grmio1q3b4l" path="res://Textures/UI/Items/Armor/Wood_Helmet.png" id="1_htpyg"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="2_j6u0s"]
+
+[resource]
+script = ExtResource("2_j6u0s")
+image = ExtResource("1_htpyg")
+name = "Wood Helmet"
+use_type = "Helmet"
+itemtype_for_interacting = ""
+damage_entity = 2
+damage_block = 0
+durability = 45
+stackable = false
+smelt_energie = 0
+fuel_energie = 0
+description = "A cheep Armor made out of Wood"

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="openable_chest" load_steps=5 format=3 uid="uid://g42oa7ntx45s"]
+
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/openable_chest.gd" id="1_bp44n"]
+[ext_resource type="Resource" uid="uid://c14mrdcrmdivi" path="res://Scriptable Object Recources/Cosmetics/Money/Bit_Money.tres" id="1_itovk"]
+[ext_resource type="Resource" uid="uid://civyye7pvgcl8" path="res://Scriptable Object Recources/Cosmetics/Money/Little_Money.tres" id="2_gei4n"]
+[ext_resource type="Resource" uid="uid://pk8bggv8cu1c" path="res://Scriptable Object Recources/Cosmetics/Money/Much_Money.tres" id="3_hi327"]
+
+[resource]
+script = ExtResource("1_bp44n")
+item = Array[Resource("res://Scriptable Object Recources/Recources/Cosemtic.gd")]([ExtResource("1_itovk"), ExtResource("2_gei4n"), ExtResource("3_hi327")])
+min_items = 1
+max_items = 2

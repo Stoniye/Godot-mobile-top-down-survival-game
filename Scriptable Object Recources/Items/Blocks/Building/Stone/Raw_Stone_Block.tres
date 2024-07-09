@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://bywc3jtinm3jl"]
+
+[ext_resource type="Texture2D" uid="uid://cgi66v8bx5f8h" path="res://Textures/UI/Items/Blocks/Raw_Stone_Block.png" id="2_sc1su"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="3_hovr5"]
+
+[resource]
+script = ExtResource("3_hovr5")
+image = ExtResource("2_sc1su")
+name = "Raw Stone Block"
+use_type = "Placing"
+itemtype_for_interacting = "Mining"
+damage_entity = 0
+damage_block = 0
+durability = 10
+stackable = true
+Equipable = false
+drop_other = false
+smelt_energie = 0
+fuel_energie = 0

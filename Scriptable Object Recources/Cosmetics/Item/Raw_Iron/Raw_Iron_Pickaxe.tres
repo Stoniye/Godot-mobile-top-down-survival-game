@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Cosmetic" load_steps=3 format=3 uid="uid://dkv8ascouf43q"]
+
+[ext_resource type="Texture2D" uid="uid://bwmovnykopko4" path="res://Textures/UI/Cosmetics/Item Skins/Raw_Iron/Raw_Iron_Pickaxe.png" id="1_1r6d3"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/Cosemtic.gd" id="2_1dc15"]
+
+[resource]
+script = ExtResource("2_1dc15")
+image = ExtResource("1_1r6d3")
+name = "Raw Pickaxe"
+type = "Item"
+Probability = 5

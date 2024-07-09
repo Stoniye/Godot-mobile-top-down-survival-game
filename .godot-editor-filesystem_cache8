@@ -1,0 +1,381 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1711026403
+::res://Nodes/::1710790460
+building.tscn::PackedScene::8716503626663114400::1710790459::0::1::::<><>::uid://d2ud32n56q1cy::::res://Textures/UI/Items/Blocks/Clean_Stone.png<>res://Scrips/UI/ItemSlot.gd
+droped_item.tscn::PackedScene::8942300388301393642::1708705302::0::1::::<><>::uid://cy2mxt7cqyety::::res://Textures/UI/Items/Tools/Iron_Pickaxe.png<>uid://b738cipf5qmx7::::res://Textures/UI/General UI/Circle.png<>res://Scrips/UI/ItemSlot.gd
+player.tscn::PackedScene::1101572344802873299::1710790460::0::1::::<><>::res://Scrips/Player/player.gd<>uid://cvl4sqpoxbvac::::res://Textures/Skins/Default.png
+selected_arrow.tscn::PackedScene::4881386067347164068::1708705301::0::1::::<><>::uid://ix4cj6rr5ltf::::res://Textures/UI/General UI/Arrow.png
+::res://Nodes/UI/::1710790459
+JoyStick.tscn::PackedScene::4142862284648932977::1708705301::0::1::::<><>::res://Scrips/Player Movement/JoyStick.gd<>uid://brfbo70asexsx::::res://Textures/UI/JoyStick/JoystickBackground.png<>uid://b683w3ud2e3w6::::res://Textures/UI/JoyStick/Joystick.png
+ui.tscn::PackedScene::3020714071521038593::1710790459::0::1::::<><>::uid://bl81h12kkv6mp::::res://Textures/UI/Inventory/Backback.png<>res://Scrips/UI/ui.gd<>uid://pcuqx3shopst::::res://Textures/UI/Inventory/InventoryBackground.png<>uid://7ssaiidbmm25::::res://Textures/UI/Buttons/ActionButton_Arrow.png<>uid://bmffsklm6vc0i::::res://Textures/UI/General UI/Close.png<>uid://cu5ucpu4ntv72::::res://Textures/UI/Inventory/SlotImage.png<>uid://30oax6mggbi::::res://Textures/UI/Inventory/ItemSlot.png<>uid://bpbb2snsw3vgu::::res://Textures/UI/Inventory/SlotAddon.png<>uid://b3gdgyy5u5lww::::res://Textures/UI/Inventory/CraftingBackground.png<>uid://gl8ngtc28xnf::::res://Textures/UI/General UI/SliderBackground.png<>uid://csgbgcfs4unaf::::res://Textures/UI/Inventory/Equipment Background.png<>uid://72ajs32p8ul7::::res://Textures/UI/General UI/CheckBox.png<>uid://cphpatvcllbe1::::res://Textures/UI/General UI/SliderFill.png<>uid://ckfaskj58ornk::::res://Textures/UI/Inventory/Heart.png<>uid://cfm6gipx27wbp::::res://Textures/UI/General UI/CheckForBox.png<>res://Scrips/UI/Slot.gd<>uid://drdc7ida6bntf::::res://Textures/UI/General UI/Furnace_Arrow_Background.png<>uid://daju4mmlysro5::::res://Textures/UI/Inventory/Arrow.png<>res://Scrips/UI/ItemSlot.gd<>uid://b3am3rybfaphy::::res://Textures/UI/General UI/Furnace_Arrow_Fill.png<>res://Scrips/UI/RecipeSlot.gd<>uid://dhkogq41eypt2::::res://Textures/UI/Inventory/FurnaceBackground.png<>uid://cvl4sqpoxbvac::::res://Textures/Skins/Default.png<>uid://8ukpuk82hsan::::res://Textures/UI/General UI/Settings.png<>uid://dgei3u6uje1ux::::res://Textures/UI/General UI/Pause.png<>uid://cw01e2lnhr8hl::::res://Textures/UI/General UI/StandardWindow.png<>uid://bh37orddkek8u::::res://Textures/UI/Buttons/Round_button.png<>uid://1afwg5ny2356::::res://Textures/Menü/StandardButton.png<>uid://ouh6xotbr1r3::::res://Textures/UI/Inventory/Open_Chest.png<>uid://cgp0j3lxpe6bj::::res://Textures/UI/Inventory/Helmet_Slot.png<>uid://cv21jjcvi00oe::::res://Textures/UI/Inventory/TransferToChest.png<>uid://dde3jaulwbjfv::::res://Textures/UI/Inventory/Energy_Orbs_Slot.png<>uid://0lugtt8vmlub::::res://Textures/UI/Inventory/Chestplate_Slot.png<>uid://cipxdjpnfrqg7::::res://Textures/UI/Inventory/TransferToInv.png<>uid://dexrb3lxhjg5b::::res://Textures/UI/Inventory/Armor.png<>uid://c4ygdc2gnjoxu::::res://Textures/UI/General UI/Back.png<>uid://gs2heto5odxi::::res://Textures/UI/Inventory/Item_DetailsBackground.png<>uid://cr5wk0c5yx8je::::res://Textures/UI/General UI/Arrow_Lonly.png<>uid://k1djtj1ag452::::res://Textures/UI/Inventory/Item_Profiler.png<>res://Scrips/UI/Item_Profiler.gd<>uid://donrbrxrow06h::::res://Textures/UI/Inventory/Craft.png<>uid://bcs332cuso72e::::res://Textures/UI/Inventory/Display.png<>uid://bln71ricovkly::::res://Textures/UI/Planets/Azuria.png<>uid://d1p52e5g3qhn5::::res://Textures/UI/Inventory/Display_Corner.png<>res://Scrips/Planets_in_Screen.gd<>uid://dmyrl6rmbkvtc::::res://Textures/UI/Planets/Huvle.png<>uid://deavfytnybl46::::res://Textures/UI/Planets/Selected_Planet.png<>uid://bui2o20wgoax5::::res://Textures/UI/Planets/Tab.png<>uid://c73tnbob13w4y::::res://Textures/UI/Planets/Bokuta.png<>uid://dwoau42x4gslm::::res://Textures/UI/Inventory/ItemTitle.png<>uid://vkvnntj45e2r::::res://Textures/UI/Inventory/ItemProperties.png<>uid://12huv2vcgrf0::::res://Textures/UI/Inventory/ShowRecipe.png
+::res://Scenes/::1710790459
+main_menü.tscn::PackedScene::3211139854894693375::1710790459::0::1::::<><>::res://Scrips/Menü/main_menü.gd<>uid://1afwg5ny2356::::res://Textures/Menü/StandardButton.png<>uid://bifg07txnhi1s::::res://Textures/Menü/TitleBackground.png<>uid://burfkw34pmg2p::::res://Textures/Eternity/Eternity Logo + Schrift (White).png<>uid://djq3wa2crxv35::::res://Textures/Menü/Social Icons/X.png<>uid://d2qsf5chmm851::::res://Textures/Menü/Social Icons/Discord Icon.png<>uid://cw01e2lnhr8hl::::res://Textures/UI/General UI/StandardWindow.png<>uid://dhkyta6v47vsy::::res://Textures/Menü/Title.png<>uid://dqe0f3xvkdgjd::::res://Textures/Tilemaps/Terrain_Tilemap.tres<>uid://c4ygdc2gnjoxu::::res://Textures/UI/General UI/Back.png<>uid://ummexwelqt8::::res://Textures/UI/General UI/Saved_world.png<>res://Scrips/Menü/World_Button.gd<>uid://bmffsklm6vc0i::::res://Textures/UI/General UI/Close.png<>uid://cjq04sdveps2j::::res://Textures/UI/General UI/Delete_World.png<>uid://dhkogq41eypt2::::res://Textures/UI/Inventory/FurnaceBackground.png<>uid://c8roftp6l2ms8::::res://Textures/Menü/Selector.png<>uid://b7kc3gohmoe8y::::res://Textures/Menü/ChestsIcon.png<>uid://ddnmqtlafdh6q::::res://Textures/Menü/CosmeticsIcon.png<>uid://c8sickwoyum1::::res://Textures/Menü/MonthlyIcon.png<>uid://bp8oj7wx1qnly::::res://Textures/Menü/PremiumIcon.png<>uid://d3n3ngbsylxej::::res://Textures/Menü/Redeem Code.png<>uid://cjlqar4c8cj7::::res://Textures/Menü/CurencyBackground.png<>uid://cxuigkaw5t6mn::::res://Textures/Menü/Tokens.png<>uid://bnx24hf30shtm::::res://Textures/Menü/Coins.png<>uid://dlkmueifw7130::::res://Textures/UI/Items/Ores/Plurana.png<>uid://dccqge5acwnt4::::res://Textures/Menü/Chests/FreeChest.png<>uid://b1wcq2hsslqhc::::res://Textures/Menü/Ad.png<>uid://bclxuhgu84yad::::res://Textures/Menü/PremiumPackBackground.png<>uid://dneayy48h32yb::::res://Textures/UI/General UI/Info.png<>uid://mfk4jeop2k4o::::res://Textures/Menü/Chests/1Chest.png<>uid://db0mldqdli1j8::::res://Textures/Menü/PremiumPack1_Image.png<>uid://bv6bxr15uxqql::::res://Textures/Menü/Chests/2Chest.png<>uid://df7235hyrxbc6::::res://Textures/Menü/Chests/3Chest.png<>uid://dna8der1ppp7v::::res://Textures/Menü/PremiumPack2_Image.png<>uid://dnbe7jujq73x8::::res://Textures/Menü/PremiumPack3_Image.png<>uid://dcsa8dt7bgh06::::res://Textures/Menü/Chests/PremiumChest.png<>uid://bpbb2snsw3vgu::::res://Textures/UI/Inventory/SlotAddon.png<>uid://cfqpidifys0e6::::res://Textures/UI/General UI/Cosmetic_Background.png<>uid://bbefnrcbnh2hf::::res://Textures/UI/Cosmetics/Hat/Leather_Hat.png<>uid://sbeksrlnprmj::::res://Textures/Menü/Open_Chest.png<>uid://jys6n2njecte::::res://Textures/Menü/Chest_Card.png<>uid://meel075iolu3::::res://Textures/UI/General UI/One_Color.png<>uid://dmiaa74nspx1d::::res://Textures/Menü/Hat_Icon.png<>uid://oa8orwovny52::::res://Textures/UI/Cosmetics/Hat/Cylinder.png<>uid://bwmovnykopko4::::res://Textures/UI/Cosmetics/Item Skins/Raw_Iron/Raw_Iron_Pickaxe.png<>uid://bsttrcn6uvit2::::res://Textures/Menü/Dublicate.png<>uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>uid://c862tbijkenqv::::res://Textures/Menü/SoundIcon.png<>uid://bb2jokekmek6u::::res://Textures/Menü/GameplayIcon.png<>uid://dxsyy1cll7rd7::::res://Textures/Menü/SettingBackground.png<>uid://f8xd2ynisxwn::::res://Textures/UI/General UI/Check_Slider_Checked.png<>uid://d32qtyyrghog8::::res://Textures/UI/General UI/Ckeck_Slider_Unchecked.png
+story_sequenz.tscn::PackedScene::1185001126174936862::1708705302::0::1::::<><>::res://Scrips/Story_Sequenz/Story_Sequenz.gd
+::res://Scenes/Planets/::1710790459
+Azuria.tscn::PackedScene::2278269481363610977::1710790458::0::1::::<><>::uid://dqe0f3xvkdgjd::::res://Textures/Tilemaps/Terrain_Tilemap.tres<>uid://pxu0aleit31x::::res://Nodes/player.tscn<>uid://bjbiypwk887mr::::res://Nodes/UI/ui.tscn<>uid://b0a3lpbx03xs8::::res://Nodes/UI/JoyStick.tscn<>res://Scrips/time_manager.gd<>res://Scrips/Save_Load/save_load.gd<>uid://b8saqfaky5lap::::res://Textures/Entitys/Rocket.png<>uid://c1evo0aa7svcc::::res://Textures/UI/Items/Blocks/Rocket_Chest.png<>res://Scrips/Chest.gd<>res://Scrips/UI/ItemSlot.gd
+Bokuta.tscn::PackedScene::8329900936175277448::1710790459::0::1::::<><>::uid://yvfescykyenl::::res://Textures/Tilemaps/Huvle_Tilemap.tres<>uid://ykhwcyo6kxch::::res://Textures/Tilemaps/Bokuta_Tilemap.tres<>uid://pxu0aleit31x::::res://Nodes/player.tscn<>uid://bjbiypwk887mr::::res://Nodes/UI/ui.tscn<>uid://b0a3lpbx03xs8::::res://Nodes/UI/JoyStick.tscn<>res://Scrips/time_manager.gd<>res://Scrips/Save_Load/save_load.gd<>uid://b8saqfaky5lap::::res://Textures/Entitys/Rocket.png<>uid://c1evo0aa7svcc::::res://Textures/UI/Items/Blocks/Rocket_Chest.png<>res://Scrips/Chest.gd<>res://Scrips/UI/ItemSlot.gd<>uid://dwglsnwwrmc0w::::res://Nodes/building.tscn<>uid://cwaimig4psms1::::res://Textures/Planets/Bokuta/Cyan_Tendril_Bottom.png<>uid://cf68vhex64m2p::::res://Textures/Planets/Bokuta/Cyan_Tendril.png
+Huvle.tscn::PackedScene::4424362227651206079::1710790458::0::1::::<><>::uid://yvfescykyenl::::res://Textures/Tilemaps/Huvle_Tilemap.tres<>uid://pxu0aleit31x::::res://Nodes/player.tscn<>uid://bjbiypwk887mr::::res://Nodes/UI/ui.tscn<>uid://b0a3lpbx03xs8::::res://Nodes/UI/JoyStick.tscn<>res://Scrips/time_manager.gd<>res://Scrips/Save_Load/save_load.gd<>uid://b8saqfaky5lap::::res://Textures/Entitys/Rocket.png<>uid://c1evo0aa7svcc::::res://Textures/UI/Items/Blocks/Rocket_Chest.png<>res://Scrips/UI/ItemSlot.gd<>res://Scrips/Chest.gd
+::res://Scrips/::1705870179
+Chest.gd::GDScript::-1::1705234233::0::1::::<>Node<>::
+Planets_in_Screen.gd::GDScript::-1::1705237251::0::1::::<>TextureButton<>::
+Scene_Handler.gd::GDScript::-1::1705870179::0::1::::<>Node<>::
+time_manager.gd::GDScript::-1::1705497305::0::1::::<>Node2D<>::
+::res://Scrips/Furnace/::1709741359
+Furnace.gd::GDScript::-1::1709729854::0::1::::<>Sprite2D<>::
+::res://Scrips/Menü/::1710701319
+main_menü.gd::GDScript::-1::1710701319::0::1::::<>Node2D<>::
+World_Button.gd::GDScript::-1::1705524848::0::1::::<>TextureButton<>::
+::res://Scrips/Player/::1709746034
+player.gd::GDScript::-1::1709746034::0::1::::<>CharacterBody2D<>::
+::res://Scrips/Player Movement/::1704922627
+JoyStick.gd::GDScript::-1::1704922627::0::1::::<>Area2D<>::
+::res://Scrips/Save_Load/::1710350936
+save_load.gd::GDScript::-1::1710350936::0::1::::<>Node2D<>::
+::res://Scrips/Story_Sequenz/::1705237208
+Story_Sequenz.gd::GDScript::-1::1705237208::0::1::::<>Node2D<>::
+::res://Scrips/UI/::1710790458
+InventoryItem.gd::GDScript::-1::1703857549::0::1::::InventoryItem<>TextureRect<>::
+ItemSlot.gd::GDScript::-1::1704152579::0::1::::<>TextureRect<>::
+Item_Profiler.gd::GDScript::-1::1708587648::0::1::::<>TextureRect<>::
+RecipeSlot.gd::GDScript::-1::1704320347::0::1::::<>TextureButton<>::
+Slot.gd::GDScript::-1::1710790458::0::1::::<>TextureRect<>::
+ui.gd::GDScript::-1::1710701171::0::1::::<>CanvasGroup<>::
+::res://Scriptable Object Recources/::1710092448
+::res://Scriptable Object Recources/Cosmetics/::1710429729
+::res://Scriptable Object Recources/Cosmetics/Animal Skins/::1710092422
+::res://Scriptable Object Recources/Cosmetics/Backback/::1710092422
+::res://Scriptable Object Recources/Cosmetics/Footsteps/::1710092422
+::res://Scriptable Object Recources/Cosmetics/Hat/::1710437911
+Cylinder.tres::Resource/Resource::960686368367456495::1710432797::0::1::::<><>::uid://oa8orwovny52::::res://Textures/UI/Cosmetics/Hat/Cylinder.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Leather_Hat.tres::Resource/Resource::4256234600387380927::1710432797::0::1::::<><>::uid://bbefnrcbnh2hf::::res://Textures/UI/Cosmetics/Hat/Leather_Hat.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Propeller_Cap.tres::Resource/Resource::8188084989752467343::1710432797::0::1::::<><>::res://Scriptable Object Recources/Recources/Cosemtic.gd<>uid://cgnx8s4hgvqca::::res://Textures/UI/Cosmetics/Hat/Propeller_Cap.png
+Red_Flower.tres::Resource/Resource::6561429199029463259::1710432797::0::1::::<><>::uid://bd57lijqvbq7q::::res://Textures/UI/Cosmetics/Hat/Red_Flower.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Smal_Cylinder.tres::Resource/Resource::1599199765690736468::1710432797::0::1::::<><>::uid://cfg5t4iie7fnj::::res://Textures/UI/Cosmetics/Hat/Smal_Cylinder.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+::res://Scriptable Object Recources/Cosmetics/Hat/Special/::1710437998
+Circling_Hearts.tres::Resource/Resource::3572733353391802769::1710437998::0::1::::<><>::uid://dva4q7pivy55a::::res://Textures/UI/Cosmetics/Hat/Circling_Hearts.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+::res://Scriptable Object Recources/Cosmetics/Inactivity Action/::1710092422
+::res://Scriptable Object Recources/Cosmetics/Item/::1710449083
+::res://Scriptable Object Recources/Cosmetics/Item/Raw_Iron/::1710449918
+Raw_Iron_Axe.tres::Resource/Resource::8184668237962256825::1710449918::0::1::::<><>::uid://csrhjr0uxulj1::::res://Textures/UI/Cosmetics/Item Skins/Raw_Iron/Raw_Iron_Axe.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Raw_Iron_Chestplate.tres::Resource/Resource::8323180600600308973::1710449918::0::1::::<><>::uid://byng6n3o2ixka::::res://Textures/UI/Cosmetics/Item Skins/Raw_Iron/Raw_Iron_Chestplate.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Raw_Iron_Helmet.tres::Resource/Resource::2185379586185129303::1710449918::0::1::::<><>::uid://cxutx0a1qv3dt::::res://Textures/UI/Cosmetics/Item Skins/Raw_Iron/Raw_Iron_Helmet.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Raw_Iron_Pickaxe.tres::Resource/Resource::7906507030229140708::1710449918::0::1::::<><>::uid://bwmovnykopko4::::res://Textures/UI/Cosmetics/Item Skins/Raw_Iron/Raw_Iron_Pickaxe.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Raw_Iron_Sword.tres::Resource/Resource::4716098205984440477::1710449918::0::1::::<><>::uid://dbj363t1o5gf2::::res://Textures/UI/Cosmetics/Item Skins/Raw_Iron/Raw_Iron_Sword.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+::res://Scriptable Object Recources/Cosmetics/Money/::1710596301
+Bit_Money.tres::Resource/Resource::6658377380700583786::1710432797::0::1::::<><>::uid://d0m42gmqrkqxv::::res://Textures/Menü/BitCoins.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Little_Money.tres::Resource/Resource::5379204376442803967::1710432797::0::1::::<><>::res://Scriptable Object Recources/Recources/Cosemtic.gd<>uid://cphcqcjsuyrr4::::res://Textures/Menü/LittleCoins.png
+Much_Money.tres::Resource/Resource::1075482204073554694::1710432797::0::1::::<><>::uid://bnx24hf30shtm::::res://Textures/Menü/Coins.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+::res://Scriptable Object Recources/Cosmetics/Pet/::1710450340
+::res://Scriptable Object Recources/Cosmetics/Pet/Special/::1710450360
+Floating_Heart.tres::Resource/Resource::6785900245061311070::1710450360::0::1::::<><>::uid://ftcjtr4isb0q::::res://Textures/UI/Cosmetics/Pet/Floating_Heart.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+::res://Scriptable Object Recources/Cosmetics/Skin/::1710429729
+::res://Scriptable Object Recources/Cosmetics/Title/::1710593651
+Addicted.tres::Resource/Resource::6444117068789959656::1710433675::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Automation Master.tres::Resource/Resource::6261715727991992485::1710435659::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Crazy Dude.tres::Resource/Resource::4160900778468154096::1710435609::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Crazy Guy.tres::Resource/Resource::3725819564740013198::1710435565::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Farmer.tres::Resource/Resource::4381039130116519109::1710449951::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Master.tres::Resource/Resource::7995920389774369585::1710449979::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Miner.tres::Resource/Resource::8559374349090048381::1710449951::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Pixel_Pilot.tres::Resource/Resource::4603494244180501176::1710435533::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Silly.tres::Resource/Resource::6829253054511379781::1710433675::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Sweater.tres::Resource/Resource::5902395357425292233::1710593651::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Sweety.tres::Resource/Resource::8380222198873289284::1710437342::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+::res://Scriptable Object Recources/Cosmetics/Title/Special/::1710452122
+Admin's_Friend.tres::Resource/Resource::2616254528589267401::1710437424::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Admin's_Girl.tres::Resource/Resource::7498925738811303303::1710437424::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Admin.tres::Resource/Resource::1617297149512979204::1710430866::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Angel.tres::Resource/Resource::1742204398399422515::1710452122::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Arme_Mann.tres::Resource/Resource::1002042408445318234::1710435862::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Beautiful_Girl.tres::Resource/Resource::2940239764561224000::1710438196::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Designer.tres::Resource/Resource::3346438815939910180::1710430813::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Developer.tres::Resource/Resource::4710096662332765289::1710430866::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+Helper.tres::Resource/Resource::2429000876224686932::1710435862::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+OG.tres::Resource/Resource::5693920098765670964::1710436995::0::1::::<><>::uid://dp4vwxw1fmv0v::::res://Textures/UI/Cosmetics/Title/Tag.png<>res://Scriptable Object Recources/Recources/Cosemtic.gd
+::res://Scriptable Object Recources/Items/::1708547965
+::res://Scriptable Object Recources/Items/Armor/::1708542753
+::res://Scriptable Object Recources/Items/Armor/Iron/::1708767426
+Iron_Chestplate.tres::Resource/Resource::4537356384586267505::1708767425::0::1::::<><>::res://Scriptable Object Recources/Recources/item.gd<>uid://bnjttssbc2pto::::res://Textures/UI/Items/Armor/Iron_Chestplate.png
+Iron_Helmet.tres::Resource/Resource::7117734946522235738::1708767426::0::1::::<><>::uid://l1lqo3pr014s::::res://Textures/UI/Items/Armor/Iron_Helmet.png<>res://Scriptable Object Recources/Recources/item.gd
+::res://Scriptable Object Recources/Items/Armor/Stone/::1708767426
+Stone_Chestplate.tres::Resource/Resource::6502547859427634220::1708767426::0::1::::<><>::uid://drlq4ga7np46p::::res://Textures/UI/Items/Armor/Stone_Chestplate.png<>res://Scriptable Object Recources/Recources/item.gd
+Stone_Helmet.tres::Resource/Resource::4228617622523274799::1708767426::0::1::::<><>::uid://d2aygxa0aphpi::::res://Textures/UI/Items/Armor/Stone_Helmet.png<>res://Scriptable Object Recources/Recources/item.gd
+::res://Scriptable Object Recources/Items/Armor/Wood/::1708767426
+Wood_Chestplate.tres::Resource/Resource::2581566026252564777::1708767426::0::1::::<><>::uid://dilpgxml0vcjd::::res://Textures/UI/Items/Armor/Wood_Chestplate.png<>res://Scriptable Object Recources/Recources/item.gd
+Wood_Helmet.tres::Resource/Resource::771157068026564314::1708767426::0::1::::<><>::uid://c3grmio1q3b4l::::res://Textures/UI/Items/Armor/Wood_Helmet.png<>res://Scriptable Object Recources/Recources/item.gd
+::res://Scriptable Object Recources/Items/Blocks/::1708535510
+::res://Scriptable Object Recources/Items/Blocks/Building/::1708536603
+::res://Scriptable Object Recources/Items/Blocks/Building/Ores/::1708539300
+Copper_Block.tres::Resource/Resource::2840061748600119807::1708539300::0::1::::<><>::uid://2a5dntlffh7c::::res://Textures/UI/Items/Blocks/Copper_Block.png<>res://Scriptable Object Recources/Recources/item.gd
+Copper_Block_Oxidized.tres::Resource/Resource::7925262252497407015::1708539300::0::1::::<><>::uid://c4xykoddxxuma::::res://Textures/UI/Items/Blocks/Copper_Block_Oxidized.png<>res://Scriptable Object Recources/Recources/item.gd
+Iron_Block.tres::Resource/Resource::297402345541645692::1708539300::0::1::::<><>::uid://fnm0bht2vo3r::::res://Textures/UI/Items/Blocks/Iron_Block.png<>res://Scriptable Object Recources/Recources/item.gd
+::res://Scriptable Object Recources/Items/Blocks/Building/Stone/::1708539300
+Clean_Stone.tres::Resource/Resource::7738567109168230708::1708539300::0::1::::<><>::uid://d2ud32n56q1cy::::res://Textures/UI/Items/Blocks/Clean_Stone.png<>res://Scriptable Object Recources/Recources/item.gd
+Raw_Stone_Block.tres::Resource/Resource::4116541180252858653::1708539300::0::1::::<><>::uid://cgi66v8bx5f8h::::res://Textures/UI/Items/Blocks/Raw_Stone_Block.png<>res://Scriptable Object Recources/Recources/item.gd
+::res://Scriptable Object Recources/Items/Blocks/Building/Wood/::1708539300
+Wood_Planks.tres::Resource/Resource::7211007424443213339::1708539300::0::1::::<><>::uid://bcapl728848q1::::res://Textures/UI/Items/Blocks/Wood_Blanks.png<>res://Scriptable Object Recources/Recources/item.gd
+::res://Scriptable Object Recources/Items/Blocks/Interactables/::1708867542
+Chest.tres::Resource/Resource::1149452816389595387::1708539300::0::1::::<><>::uid://gk4gjm8460ha::::res://Textures/UI/Items/Blocks/Chest.png<>res://Scriptable Object Recources/Recources/item.gd
+Crafting_Table.tres::Resource/Resource::2421765696695497694::1708767487::0::1::::<><>::uid://ck32iwr63mmbc::::res://Textures/UI/Items/Blocks/Crafiting_Table.png<>res://Scriptable Object Recources/Recources/item.gd
+Furnace.tres::Resource/Resource::7038051365997156831::1708539300::0::1::::<><>::uid://c2pumikjg8li4::::res://Textures/UI/Items/Blocks/Furnace.png<>res://Scriptable Object Recources/Recources/item.gd
+Fusion_Forge.tres::Resource/Resource::7112709405131862070::1708867542::0::1::::<><>::uid://c1os8bv3uh7ow::::res://Textures/UI/Items/Blocks/Fusion_Forge.png<>res://Scriptable Object Recources/Recources/item.gd
+::res://Scriptable Object Recources/Items/EnergyOrbs/::1708774624
+Armor_Core.tres::Resource/Resource::1145723402460694997::1708774624::0::1::::<><>::uid://c14pvqr7fetd3::::res://Textures/UI/Items/EnergyOrbs/Armor_Core.png<>res://Scriptable Object Recources/Recources/item.gd
+Health_Upper.tres::Resource/Resource::4704636550775597110::1708774624::0::1::::<><>::uid://b0xrktm7fdbj4::::res://Textures/UI/Items/EnergyOrbs/Health_Upper.png<>res://Scriptable Object Recources/Recources/item.gd
+::res://Scriptable Object Recources/Items/Ores/::1705872232
+::res://Scriptable Object Recources/Items/Ores/Ores/::1709982766
+Coal.tres::Resource/Resource::439645299630051226::1707925598::0::1::::<><>::res://Scriptable Object Recources/Recources/item.gd<>uid://b7d6ahqr3k4ji::::res://Textures/UI/Items/Ores/Coal.png
+Plurana.tres::Resource/Resource::8183067563674562519::1709982766::0::1::::<><>::res://Scriptable Object Recources/Recources/item.gd<>uid://dlkmueifw7130::::res://Textures/UI/Items/Ores/Plurana.png
+::res://Scriptable Object Recources/Items/Ores/Raw_Ores/::1708535617
+Raw_Copper.tres::Resource/Resource::2361392529874511880::1708535617::0::1::::<><>::res://Scriptable Object Recources/Recources/item.gd<>uid://b8a8o3hidclhp::::res://Textures/UI/Items/Ores/Raw_Copper.png<>uid://btyjniaro3u25::::res://Scriptable Object Recources/Items/Resources/Ingot_Copper.tres
+Raw_Iron.tres::Resource/Resource::1792534222015834765::1708535617::0::1::::<><>::res://Scriptable Object Recources/Recources/item.gd<>uid://d13j1qgmsmgp2::::res://Textures/UI/Items/Ores/Raw_Iron.png<>uid://vyyf1v70t4to::::res://Scriptable Object Recources/Items/Resources/Ingot_Iron.tres
+Raw_Stone.tres::Resource/Resource::2466023090147906469::1707570459::0::1::::<><>::uid://dcuqyv3r5mr2y::::res://Textures/UI/Items/Ores/Raw_Stone.png<>res://Scriptable Object Recources/Recources/item.gd
+::res://Scriptable Object Recources/Items/Resources/::1708535624
+Ingot_Copper.tres::Resource/Resource::3770123868147849444::1708535624::0::1::::<><>::res://Scriptable Object Recources/Recources/item.gd<>uid://oudob72fvk6u::::res://Textures/UI/Items/Resources/Ingot_Copper.png
+Ingot_Iron.tres::Resource/Resource::1524978318828153712::1708535624::0::1::::<><>::uid://be7i0mcopwnbp::::res://Textures/UI/Items/Resources/Ingot_Iron.png<>res://Scriptable Object Recources/Recources/item.gd
+Wooden_Loggs.tres::Resource/Resource::2486725794902036729::1708108598::0::1::::<><>::uid://baaw5ki3atech::::res://Textures/UI/Items/Resources/Wooden_Loggs.png<>res://Scriptable Object Recources/Recources/item.gd
+::res://Scriptable Object Recources/Items/Tools/::1708539221
+::res://Scriptable Object Recources/Items/Tools/Iron/::1708541293
+Iron_Axe.tres::Resource/Resource::860203374535892880::1708539871::0::1::::<><>::uid://bcwc02xy0slvp::::res://Textures/UI/Items/Tools/Iron_Axe.png<>res://Scriptable Object Recources/Recources/item.gd
+Iron_Pickaxe.tres::Resource/Resource::6440031843507051144::1705585521::0::1::::<><>::uid://cy2mxt7cqyety::::res://Textures/UI/Items/Tools/Iron_Pickaxe.png<>res://Scriptable Object Recources/Recources/item.gd
+Iron_Sword.tres::Resource/Resource::6484754335277697858::1708541293::0::1::::<><>::uid://0fcaaw35thb::::res://Textures/UI/Items/Tools/Iron_Sword.png<>res://Scriptable Object Recources/Recources/item.gd
+::res://Scriptable Object Recources/Items/Tools/Stone/::1708541293
+Stone_Axe.tres::Resource/Resource::165582924983128047::1703933684::0::1::::<><>::res://Scriptable Object Recources/Recources/item.gd<>uid://2hl4jo5qj1p2::::res://Textures/UI/Items/Tools/Stone_Axe.png
+Stone_Pickaxe.tres::Resource/Resource::4882976157202894983::1703932620::0::1::::<><>::res://Scriptable Object Recources/Recources/item.gd<>uid://f1n2s1dbpkrs::::res://Textures/UI/Items/Tools/Stone_Pickaxe.png
+Stone_Sword.tres::Resource/Resource::4676918993491569223::1708541293::0::1::::<><>::uid://dh8uxwbwt4auf::::res://Textures/UI/Items/Tools/Stone_Sword.png<>res://Scriptable Object Recources/Recources/item.gd
+::res://Scriptable Object Recources/Items/Tools/Wood/::1708541293
+Wood_Axe.tres::Resource/Resource::8778823554216631599::1708539871::0::1::::<><>::uid://c8jd02olfegk4::::res://Textures/UI/Items/Tools/Wood_Axe.png<>res://Scriptable Object Recources/Recources/item.gd
+Wood_Pickaxe.tres::Resource/Resource::5387930910708930726::1708539959::0::1::::<><>::uid://byew3bcv1u0cc::::res://Textures/UI/Items/Tools/Wood_Pickaxe.png<>res://Scriptable Object Recources/Recources/item.gd
+Wood_Sword.tres::Resource/Resource::5118564412791052070::1708541293::0::1::::<><>::uid://d28hqd0v17w32::::res://Textures/UI/Items/Tools/Wood_Sword.png<>res://Scriptable Object Recources/Recources/item.gd
+::res://Scriptable Object Recources/Openable Chest/::1710596869
+1Chest.tres::Resource/Resource::4677659392722633762::1710596869::0::1::::<><>::uid://c14mrdcrmdivi::::res://Scriptable Object Recources/Cosmetics/Money/Bit_Money.tres<>uid://civyye7pvgcl8::::res://Scriptable Object Recources/Cosmetics/Money/Little_Money.tres<>uid://pk8bggv8cu1c::::res://Scriptable Object Recources/Cosmetics/Money/Much_Money.tres<>res://Scriptable Object Recources/Recources/openable_chest.gd
+2Chest.tres::Resource/Resource::4205135126064881547::1710435892::0::1::::<><>::uid://b1v0tdx24tqo2::::res://Scriptable Object Recources/Cosmetics/Hat/Leather_Hat.tres<>uid://dowmtfnkaljat::::res://Scriptable Object Recources/Cosmetics/Hat/Propeller_Cap.tres<>uid://cx2twwvb5ur7e::::res://Scriptable Object Recources/Cosmetics/Title/Addicted.tres<>uid://c0qn1r81rl45d::::res://Scriptable Object Recources/Cosmetics/Hat/Red_Flower.tres<>res://Scriptable Object Recources/Recources/openable_chest.gd<>uid://c4ke2g33gh3yn::::res://Scriptable Object Recources/Cosmetics/Title/Silly.tres
+3Chest.tres::Resource/Resource::5431194244376083296::1710593639::0::1::::<><>::uid://b1v0tdx24tqo2::::res://Scriptable Object Recources/Cosmetics/Hat/Leather_Hat.tres<>uid://dowmtfnkaljat::::res://Scriptable Object Recources/Cosmetics/Hat/Propeller_Cap.tres<>uid://c0qn1r81rl45d::::res://Scriptable Object Recources/Cosmetics/Hat/Red_Flower.tres<>res://Scriptable Object Recources/Recources/openable_chest.gd<>uid://w1wt68ujhdjo::::res://Scriptable Object Recources/Cosmetics/Hat/Smal_Cylinder.tres<>uid://cx2twwvb5ur7e::::res://Scriptable Object Recources/Cosmetics/Title/Addicted.tres<>uid://c4ke2g33gh3yn::::res://Scriptable Object Recources/Cosmetics/Title/Silly.tres<>uid://cqdfubdmrtifx::::res://Scriptable Object Recources/Cosmetics/Title/Sweater.tres<>uid://b3ohcsaa8cqsb::::res://Scriptable Object Recources/Cosmetics/Title/Farmer.tres<>uid://b0jtoswon0ujw::::res://Scriptable Object Recources/Cosmetics/Title/Crazy Dude.tres<>uid://b6t743sc3xny3::::res://Scriptable Object Recources/Cosmetics/Title/Pixel_Pilot.tres
+FreeChest.tres::Resource/Resource::482664426666021642::1710595306::0::1::::<><>::res://Scriptable Object Recources/Recources/openable_chest.gd<>uid://c14mrdcrmdivi::::res://Scriptable Object Recources/Cosmetics/Money/Bit_Money.tres<>uid://civyye7pvgcl8::::res://Scriptable Object Recources/Cosmetics/Money/Little_Money.tres<>uid://pk8bggv8cu1c::::res://Scriptable Object Recources/Cosmetics/Money/Much_Money.tres
+PremiumChest.tres::Resource/Resource::6099473870541380264::1710593639::0::1::::<><>::uid://b1v0tdx24tqo2::::res://Scriptable Object Recources/Cosmetics/Hat/Leather_Hat.tres<>uid://dowmtfnkaljat::::res://Scriptable Object Recources/Cosmetics/Hat/Propeller_Cap.tres<>uid://nxmmm6ywpw84::::res://Scriptable Object Recources/Cosmetics/Hat/Cylinder.tres<>uid://w1wt68ujhdjo::::res://Scriptable Object Recources/Cosmetics/Hat/Smal_Cylinder.tres<>res://Scriptable Object Recources/Recources/openable_chest.gd<>uid://c0qn1r81rl45d::::res://Scriptable Object Recources/Cosmetics/Hat/Red_Flower.tres<>uid://douyj4lqauiur::::res://Scriptable Object Recources/Cosmetics/Item/Raw_Iron/Raw_Iron_Axe.tres<>uid://cx2twwvb5ur7e::::res://Scriptable Object Recources/Cosmetics/Title/Addicted.tres<>uid://cvhhsp6u510cn::::res://Scriptable Object Recources/Cosmetics/Title/Automation Master.tres<>uid://b0jtoswon0ujw::::res://Scriptable Object Recources/Cosmetics/Title/Crazy Dude.tres<>uid://btc2x6xne8jys::::res://Scriptable Object Recources/Cosmetics/Title/Crazy Guy.tres<>uid://b3ohcsaa8cqsb::::res://Scriptable Object Recources/Cosmetics/Title/Farmer.tres<>uid://dt7hv6uwm73w8::::res://Scriptable Object Recources/Cosmetics/Title/Miner.tres<>uid://b6t743sc3xny3::::res://Scriptable Object Recources/Cosmetics/Title/Pixel_Pilot.tres<>uid://c4ke2g33gh3yn::::res://Scriptable Object Recources/Cosmetics/Title/Silly.tres<>uid://cqdfubdmrtifx::::res://Scriptable Object Recources/Cosmetics/Title/Sweater.tres<>uid://dqt2tle0sluaf::::res://Scriptable Object Recources/Cosmetics/Item/Raw_Iron/Raw_Iron_Chestplate.tres<>uid://6eu5afv4mqh0::::res://Scriptable Object Recources/Cosmetics/Item/Raw_Iron/Raw_Iron_Helmet.tres<>uid://dkv8ascouf43q::::res://Scriptable Object Recources/Cosmetics/Item/Raw_Iron/Raw_Iron_Pickaxe.tres<>uid://b8grpim1pmovl::::res://Scriptable Object Recources/Cosmetics/Item/Raw_Iron/Raw_Iron_Sword.tres<>uid://dl6jv1sgf2pef::::res://Scriptable Object Recources/Cosmetics/Title/Master.tres
+::res://Scriptable Object Recources/Recipes/::1710787223
+Chest.tres::Resource/Resource::4379811006400818375::1708535510::0::1::::<><>::uid://da0cid8n2h1v8::::res://Scriptable Object Recources/Items/Blocks/Building/Wood/Wood_Planks.tres<>uid://qm2k44jcn2qh::::res://Scriptable Object Recources/Items/Blocks/Interactables/Chest.tres<>res://Scriptable Object Recources/Recources/Recipe.gd
+Copper_Block.tres::Resource/Resource::3292070549964040151::1708536603::0::1::::<><>::uid://btyjniaro3u25::::res://Scriptable Object Recources/Items/Resources/Ingot_Copper.tres<>res://Scriptable Object Recources/Recources/Recipe.gd<>uid://bgp0nw1u5o560::::res://Scriptable Object Recources/Items/Blocks/Building/Ores/Copper_Block.tres
+Crafting_Table.tres::Resource/Resource::2195961791425857664::1708535510::0::1::::<><>::uid://da0cid8n2h1v8::::res://Scriptable Object Recources/Items/Blocks/Building/Wood/Wood_Planks.tres<>uid://bareelbqgbm5k::::res://Scriptable Object Recources/Items/Blocks/Interactables/Crafting_Table.tres<>res://Scriptable Object Recources/Recources/Recipe.gd
+Furnace.tres::Resource/Resource::5369460826003868955::1708535510::0::1::::<><>::uid://bbetbmilehqpp::::res://Scriptable Object Recources/Items/Ores/Raw_Ores/Raw_Stone.tres<>uid://c7jjxbplnck60::::res://Scriptable Object Recources/Items/Blocks/Interactables/Furnace.tres<>res://Scriptable Object Recources/Recources/Recipe.gd
+Fusion_Forge.tres::Resource/Resource::1956670236052888958::1708867878::0::1::::<><>::uid://diivcmsjpqjlk::::res://Scriptable Object Recources/Items/Blocks/Building/Stone/Clean_Stone.tres<>res://Scriptable Object Recources/Recources/Recipe.gd<>uid://vyyf1v70t4to::::res://Scriptable Object Recources/Items/Resources/Ingot_Iron.tres<>uid://c8lpjxe0flte1::::res://Scriptable Object Recources/Items/Blocks/Interactables/Fusion_Forge.tres
+Iron_Axe.tres::Resource/Resource::1114650095632930156::1708540355::0::1::::<><>::uid://vyyf1v70t4to::::res://Scriptable Object Recources/Items/Resources/Ingot_Iron.tres<>res://Scriptable Object Recources/Recources/Recipe.gd<>uid://bbouamf0n667v::::res://Scriptable Object Recources/Items/Resources/Wooden_Loggs.tres<>uid://mixoobauhr17::::res://Scriptable Object Recources/Items/Tools/Iron/Iron_Axe.tres
+Iron_Block.tres::Resource/Resource::2989059571441423164::1708536603::0::1::::<><>::uid://vyyf1v70t4to::::res://Scriptable Object Recources/Items/Resources/Ingot_Iron.tres<>uid://eicf5gwy0nuy::::res://Scriptable Object Recources/Items/Blocks/Building/Ores/Iron_Block.tres<>res://Scriptable Object Recources/Recources/Recipe.gd
+Iron_Chestplate.tres::Resource/Resource::6633841498894660578::1708545645::0::1::::<><>::uid://vyyf1v70t4to::::res://Scriptable Object Recources/Items/Resources/Ingot_Iron.tres<>uid://b5v6uj3gtkjan::::res://Scriptable Object Recources/Items/Armor/Iron/Iron_Chestplate.tres<>res://Scriptable Object Recources/Recources/Recipe.gd
+Iron_Helmet.tres::Resource/Resource::8063007171681278206::1708535617::0::1::::<><>::uid://vyyf1v70t4to::::res://Scriptable Object Recources/Items/Resources/Ingot_Iron.tres<>uid://c8n5b4gfvby87::::res://Scriptable Object Recources/Items/Armor/Iron/Iron_Helmet.tres<>res://Scriptable Object Recources/Recources/Recipe.gd
+Iron_Pickaxe.tres::Resource/Resource::544775502902327866::1708540355::0::1::::<><>::uid://vyyf1v70t4to::::res://Scriptable Object Recources/Items/Resources/Ingot_Iron.tres<>uid://bbouamf0n667v::::res://Scriptable Object Recources/Items/Resources/Wooden_Loggs.tres<>uid://cx0unbnr5fr0k::::res://Scriptable Object Recources/Items/Tools/Iron/Iron_Pickaxe.tres<>res://Scriptable Object Recources/Recources/Recipe.gd
+Iron_Sword.tres::Resource/Resource::2303557758230265374::1708541454::0::1::::<><>::uid://vyyf1v70t4to::::res://Scriptable Object Recources/Items/Resources/Ingot_Iron.tres<>uid://bbouamf0n667v::::res://Scriptable Object Recources/Items/Resources/Wooden_Loggs.tres<>uid://cyni7rxabbuik::::res://Scriptable Object Recources/Items/Tools/Iron/Iron_Sword.tres<>res://Scriptable Object Recources/Recources/Recipe.gd
+Stone_Axe.tres::Resource/Resource::2776820453758983155::1708545645::0::1::::<><>::uid://diivcmsjpqjlk::::res://Scriptable Object Recources/Items/Blocks/Building/Stone/Clean_Stone.tres<>uid://bbouamf0n667v::::res://Scriptable Object Recources/Items/Resources/Wooden_Loggs.tres<>uid://cmheklg00gs2::::res://Scriptable Object Recources/Items/Tools/Stone/Stone_Axe.tres<>res://Scriptable Object Recources/Recources/Recipe.gd
+Stone_Chestplate.tres::Resource/Resource::7330480727602969261::1708545645::0::1::::<><>::uid://diivcmsjpqjlk::::res://Scriptable Object Recources/Items/Blocks/Building/Stone/Clean_Stone.tres<>uid://cyv5apjh4c365::::res://Scriptable Object Recources/Items/Armor/Stone/Stone_Chestplate.tres<>res://Scriptable Object Recources/Recources/Recipe.gd
+Stone_Pickaxe.tres::Resource/Resource::6939867034407453088::1708539221::0::1::::<><>::uid://diivcmsjpqjlk::::res://Scriptable Object Recources/Items/Blocks/Building/Stone/Clean_Stone.tres<>uid://bbouamf0n667v::::res://Scriptable Object Recources/Items/Resources/Wooden_Loggs.tres<>uid://cbtl5y51vaxet::::res://Scriptable Object Recources/Items/Tools/Stone/Stone_Pickaxe.tres<>res://Scriptable Object Recources/Recources/Recipe.gd
+Stone_Sword.tres::Resource/Resource::3389671402370167006::1708541454::0::1::::<><>::uid://diivcmsjpqjlk::::res://Scriptable Object Recources/Items/Blocks/Building/Stone/Clean_Stone.tres<>uid://bbouamf0n667v::::res://Scriptable Object Recources/Items/Resources/Wooden_Loggs.tres<>uid://b7vsf4ot4krhv::::res://Scriptable Object Recources/Items/Tools/Stone/Stone_Sword.tres<>res://Scriptable Object Recources/Recources/Recipe.gd
+Wood_Axe.tres::Resource/Resource::5141816192423451125::1708540215::0::1::::<><>::res://Scriptable Object Recources/Recources/Recipe.gd<>uid://da0cid8n2h1v8::::res://Scriptable Object Recources/Items/Blocks/Building/Wood/Wood_Planks.tres<>uid://bbouamf0n667v::::res://Scriptable Object Recources/Items/Resources/Wooden_Loggs.tres<>uid://dxcr7agi5b8b8::::res://Scriptable Object Recources/Items/Tools/Wood/Wood_Axe.tres
+Wood_Chestplate.tres::Resource/Resource::4389896260208686575::1708545645::0::1::::<><>::res://Scriptable Object Recources/Recources/Recipe.gd<>uid://da0cid8n2h1v8::::res://Scriptable Object Recources/Items/Blocks/Building/Wood/Wood_Planks.tres<>uid://bc1sarwumqwar::::res://Scriptable Object Recources/Items/Armor/Wood/Wood_Chestplate.tres
+Wood_Helmet.tres::Resource/Resource::8271633056318064933::1708543204::0::1::::<><>::uid://da0cid8n2h1v8::::res://Scriptable Object Recources/Items/Blocks/Building/Wood/Wood_Planks.tres<>uid://k8s3x7eh6v6a::::res://Scriptable Object Recources/Items/Armor/Wood/Wood_Helmet.tres<>res://Scriptable Object Recources/Recources/Recipe.gd
+Wood_Pickaxe.tres::Resource/Resource::4501759247374736759::1708540165::0::1::::<><>::uid://da0cid8n2h1v8::::res://Scriptable Object Recources/Items/Blocks/Building/Wood/Wood_Planks.tres<>uid://bbouamf0n667v::::res://Scriptable Object Recources/Items/Resources/Wooden_Loggs.tres<>uid://ci07o102wkop7::::res://Scriptable Object Recources/Items/Tools/Wood/Wood_Pickaxe.tres<>res://Scriptable Object Recources/Recources/Recipe.gd
+Wood_Planks.tres::Resource/Resource::3601545975670976855::1710787223::0::1::::<><>::uid://bbouamf0n667v::::res://Scriptable Object Recources/Items/Resources/Wooden_Loggs.tres<>res://Scriptable Object Recources/Recources/Recipe.gd<>uid://da0cid8n2h1v8::::res://Scriptable Object Recources/Items/Blocks/Building/Wood/Wood_Planks.tres
+Wood_Sword.tres::Resource/Resource::3421882267433922930::1708541490::0::1::::<><>::uid://da0cid8n2h1v8::::res://Scriptable Object Recources/Items/Blocks/Building/Wood/Wood_Planks.tres<>uid://ce6qajkjtcr5g::::res://Scriptable Object Recources/Items/Tools/Wood/Wood_Sword.tres<>uid://bbouamf0n667v::::res://Scriptable Object Recources/Items/Resources/Wooden_Loggs.tres<>res://Scriptable Object Recources/Recources/Recipe.gd
+::res://Scriptable Object Recources/Recources/::1710432187
+Cosemtic.gd::GDScript::-1::1710432187::0::1::::Cosmetic<>Resource<>::
+item.gd::GDScript::-1::1708766426::0::1::::Item<>Resource<>::
+openable_chest.gd::GDScript::-1::1710432170::0::1::::openable_chest<>Resource<>::
+Recipe.gd::GDScript::-1::1709982374::0::1::::Recipe<>Resource<>::
+::res://Textures/::1705745548
+::res://Textures/Entitys/::1705169702
+Rocket.png::CompressedTexture2D::4739840159128092907::1705169700::1705169702::1::::<><>::
+::res://Textures/Eternity/::1710424148
+Eternity Logo + Schrift (White&Smal).png::CompressedTexture2D::4889835973341561419::1710424002::1710424148::1::::<><>::
+Eternity Logo + Schrift (White).png::CompressedTexture2D::3825614621282024877::1698318497::1708620273::1::::<><>::
+::res://Textures/Icon/::1703261440
+Icon.png::CompressedTexture2D::5270671331257712610::1703261412::1703261440::1::::<><>::
+::res://Textures/Menü/::1710698887
+Ad.png::CompressedTexture2D::4256898365345696936::1708444797::1708444798::1::::<><>::
+Backback_Icon.png::CompressedTexture2D::2518322617775139787::1710187843::1710187845::1::::<><>::
+BitCoins.png::CompressedTexture2D::8940565018732340419::1710092370::1710186698::1::::<><>::
+ChestsIcon.png::CompressedTexture2D::4653279230967607834::1708432231::1708432255::1::::<><>::
+Chest_Card.png::CompressedTexture2D::682393649436693026::1710184724::1710184725::1::::<><>::
+Chest_Icon.png::CompressedTexture2D::9208644094025612100::1710597028::1710597031::1::::<><>::
+Coins.png::CompressedTexture2D::3348047862852622990::1708430367::1708430369::1::::<><>::
+Coins_Icon.png::CompressedTexture2D::5879951939967634167::1710187701::1710350176::1::::<><>::
+CosmeticsIcon.png::CompressedTexture2D::7397423684355163378::1708432552::1708432553::1::::<><>::
+CurencyBackground.png::CompressedTexture2D::159653574268786914::1708366214::1708366395::1::::<><>::
+Dublicate.png::CompressedTexture2D::3690227154428983625::1710434984::1710434986::1::::<><>::
+GameplayIcon.png::CompressedTexture2D::2512919712623593338::1710689772::1710689773::1::::<><>::
+Hat_Icon.png::CompressedTexture2D::8018044922930034251::1710187471::1710187473::1::::<><>::
+Item_Icon.png::CompressedTexture2D::8743562800259202809::1710187554::1710187556::1::::<><>::
+LittleCoins.png::CompressedTexture2D::5840274792718585507::1710092307::1710186671::1::::<><>::
+MonthlyIcon.png::CompressedTexture2D::209609466895072226::1708365275::1708365276::1::::<><>::
+Open_Chest.png::CompressedTexture2D::1265725261348506829::1710183613::1710183615::1::::<><>::
+Pet_Icon.png::CompressedTexture2D::819249152297602171::1710451874::1710451875::1::::<><>::
+PremiumIcon.png::CompressedTexture2D::3508245630004739522::1708430699::1708430702::1::::<><>::
+PremiumPack1_Image.png::CompressedTexture2D::7281808768653253259::1708447653::1708468361::1::::<><>::
+PremiumPack2_Image.png::CompressedTexture2D::8073726274073781881::1708447651::1708468361::1::::<><>::
+PremiumPack3_Image.png::CompressedTexture2D::8074081913541637183::1708447649::1708468361::1::::<><>::
+PremiumPackBackground.png::CompressedTexture2D::2550939110861802587::1708444793::1708444798::1::::<><>::
+Redeem Code.png::CompressedTexture2D::9153110192400485701::1708364422::1708364423::1::::<><>::
+Selector.png::CompressedTexture2D::7125027618668534493::1708364366::1708364367::1::::<><>::
+SettingBackground.png::CompressedTexture2D::8812265690419716058::1710698886::1710698887::1::::<><>::
+SoundIcon.png::CompressedTexture2D::7154742272010251849::1710689770::1710689773::1::::<><>::
+StandardButton.png::CompressedTexture2D::1825253169126642563::1708014122::1708014124::1::::<><>::
+Title.png::CompressedTexture2D::7672718920879832960::1707935315::1707935373::1::::<><>::
+TitleBackground.png::CompressedTexture2D::2958663979533041102::1697813480::1703261330::1::::<><>::
+Title_Icon.png::CompressedTexture2D::5035415430377953745::1710434055::1710434057::1::::<><>::
+Tokens.png::CompressedTexture2D::6428969303121657433::1708430329::1708430331::1::::<><>::
+::res://Textures/Menü/Chests/::1709831985
+1Chest.png::CompressedTexture2D::853247449924177816::1709831845::1709831882::1::::<><>::
+2Chest.png::CompressedTexture2D::3924484835172792995::1709831702::1709831704::1::::<><>::
+3Chest.png::CompressedTexture2D::7577957306061617903::1709831793::1709831794::1::::<><>::
+FreeChest.png::CompressedTexture2D::7304750936952266407::1708447647::1709831176::1::::<><>::
+PremiumChest.png::CompressedTexture2D::7336857657504154509::1709831881::1709831985::1::::<><>::
+::res://Textures/Menü/Social Icons/::1703261331
+Discord Icon.png::CompressedTexture2D::9088494287335162778::1698314489::1703261331::1::::<><>::
+Istagram.png::CompressedTexture2D::5351329671853285805::1698317264::1703261331::1::::<><>::
+TikTok.png::CompressedTexture2D::1869139104987207114::1698326215::1703261331::1::::<><>::
+X.png::CompressedTexture2D::7825731092974156786::1698317582::1703261331::1::::<><>::
+YouTube.png::CompressedTexture2D::3565635035249155525::1698326292::1703261331::1::::<><>::
+::res://Textures/Planets/::1708763882
+::res://Textures/Planets/Bokuta/::1708764419
+Cyan_Tendril.png::CompressedTexture2D::5189822833315777677::1708764254::1708764255::1::::<><>::
+Cyan_Tendril_Bottom.png::CompressedTexture2D::6317503523685926990::1708764418::1708764419::1::::<><>::
+::res://Textures/Planets/Huvle/::1708188320
+Coal_Ore.png::CompressedTexture2D::3105010366531350999::1708188194::1708188320::1::::<><>::
+Copper_Ore.png::CompressedTexture2D::6395490121484263636::1708188190::1708188320::1::::<><>::
+Iron_Ore.png::CompressedTexture2D::4772799645214339044::1708188184::1708188320::1::::<><>::
+::res://Textures/Skins/::1710608993
+Default.png::CompressedTexture2D::6271309040372619086::1710608891::1710608993::1::::<><>::
+Skins_Brainstorming.png::CompressedTexture2D::6483866677640540578::1710608983::1710608993::1::::<><>::
+::res://Textures/Tilemaps/::1710790458
+Bokuta_Tilemap.tres::TileSet::1705640474068596263::1710790458::0::1::::<><>::uid://dndp08bf8l5si::::res://Textures/Tilesets/Bokuta_Tileset.png
+Huvle_Tilemap.tres::TileSet::1728195857902157749::1710790458::0::1::::<><>::uid://c7402dd4r5mfj::::res://Textures/Tilesets/Huvle_Tileset.png
+Terrain_Tilemap.tres::TileSet::8292069421244684517::1710790458::0::1::::<><>::uid://b4o3dsavy1mli::::res://Textures/Tilesets/Terrain_Tileset.png
+::res://Textures/Tilesets/::1708764013
+Bokuta_Tileset.png::CompressedTexture2D::8078867286462125868::1708763822::1708764013::1::::<><>::
+Huvle_Tileset.png::CompressedTexture2D::7080317623471567555::1708188197::1708188320::1::::<><>::
+Terrain_Tileset.png::CompressedTexture2D::4452504817339607454::1704990001::1704990002::1::::<><>::
+::res://Textures/UI/::1710092442
+::res://Textures/UI/Buttons/::1703943204
+ActionButton_Arrow.png::CompressedTexture2D::2284295134543274164::1703943072::1703943074::1::::<><>::
+Round_button.png::CompressedTexture2D::2937514008837402110::1703943117::1703943204::1::::<><>::
+::res://Textures/UI/Cosmetics/::1710430641
+::res://Textures/UI/Cosmetics/Animal Skins/::1710091863
+::res://Textures/UI/Cosmetics/Backback/::1710091803
+::res://Textures/UI/Cosmetics/Footsteps/::1710091833
+::res://Textures/UI/Cosmetics/Hat/::1710437878
+Circling_Hearts.png::CompressedTexture2D::8635018837282485316::1710437874::1710437878::1::::<><>::
+Cylinder.png::CompressedTexture2D::984673400355763567::1710190402::1710190421::1::::<><>::
+Leather_Hat.png::CompressedTexture2D::2465194734681644167::1710190400::1710190421::1::::<><>::
+Propeller_Cap.png::CompressedTexture2D::5222267752596204332::1710190392::1710190421::1::::<><>::
+Red_Flower.png::CompressedTexture2D::2660881569575601832::1710190964::1710190965::1::::<><>::
+Smal_Cylinder.png::CompressedTexture2D::5138028827873591831::1710190415::1710190421::1::::<><>::
+::res://Textures/UI/Cosmetics/Inactivity Action/::1710091825
+::res://Textures/UI/Cosmetics/Item Skins/::1710448920
+::res://Textures/UI/Cosmetics/Item Skins/Raw_Iron/::1710449882
+Raw_Iron_Axe.png::CompressedTexture2D::6071776998241616712::1710449058::1710449061::1::::<><>::
+Raw_Iron_Chestplate.png::CompressedTexture2D::4098210230106899808::1710449816::1710449882::1::::<><>::
+Raw_Iron_Helmet.png::CompressedTexture2D::6429668336551831761::1710449880::1710449882::1::::<><>::
+Raw_Iron_Pickaxe.png::CompressedTexture2D::3956236036701786553::1710191134::1710448921::1::::<><>::
+Raw_Iron_Sword.png::CompressedTexture2D::7249787231118690221::1710449721::1710449882::1::::<><>::
+::res://Textures/UI/Cosmetics/Pet/::1710450318
+Floating_Heart.png::CompressedTexture2D::390305927182329942::1710450315::1710450318::1::::<><>::
+::res://Textures/UI/Cosmetics/Title/::1710430705
+Tag.png::CompressedTexture2D::8273277248042775851::1710430704::1710430705::1::::<><>::
+::res://Textures/UI/General UI/::1710699877
+Arrow.png::CompressedTexture2D::610756323221071767::1703945081::1703945085::1::::<><>::
+Arrow_Lonly.png::CompressedTexture2D::6029337991203896754::1704305312::1704305321::1::::<><>::
+Back.png::CompressedTexture2D::6858232705371664498::1708189550::1708189552::1::::<><>::
+CheckBox.png::CompressedTexture2D::2301798257844742590::1708189500::1708189502::1::::<><>::
+CheckForBox.png::CompressedTexture2D::5150451504605517529::1708189497::1708189502::1::::<><>::
+Check_Slider_Checked.png::CompressedTexture2D::420471988097323781::1710699875::1710699877::1::::<><>::
+Circle.png::CompressedTexture2D::4692273933199692318::1703968205::1703968206::1::::<><>::
+Ckeck_Slider_Unchecked.png::CompressedTexture2D::9181294572688701533::1710699813::1710699814::1::::<><>::
+Close.png::CompressedTexture2D::3239344968187739066::1708189521::1708189522::1::::<><>::
+Cosmetic_Background.png::CompressedTexture2D::5157740841072528059::1709987056::1709987057::1::::<><>::
+Delete_World.png::CompressedTexture2D::5439141668050669951::1705524530::1705524532::1::::<><>::
+Furnace_Arrow_Background.png::CompressedTexture2D::8358844530441218423::1707928955::1707928965::1::::<><>::
+Furnace_Arrow_Fill.png::CompressedTexture2D::4352487841724935602::1707929004::1707929005::1::::<><>::
+Info.png::CompressedTexture2D::8080018695313268173::1710066955::1710066957::1::::<><>::
+One_Color.png::CompressedTexture2D::850787510268459424::1710184521::1710184522::1::::<><>::
+Pause.png::CompressedTexture2D::7589189461372068631::1703943382::1703943382::1::::<><>::
+Saved_world.png::CompressedTexture2D::42037835150530175::1705524492::1705524532::1::::<><>::
+Settings.png::CompressedTexture2D::2358154419423295325::1703892279::1703892283::1::::<><>::
+SliderBackground.png::CompressedTexture2D::445868437824569555::1703519297::1703519298::1::::<><>::
+SliderFill.png::CompressedTexture2D::5841036451617152942::1703519294::1703519298::1::::<><>::
+StandardWindow.png::CompressedTexture2D::6370192591985980501::1708188502::1708188633::1::::<><>::
+::res://Textures/UI/Inventory/::1709746379
+Armor.png::CompressedTexture2D::7488533577347125741::1709746377::1709746379::1::::<><>::
+Arrow.png::CompressedTexture2D::7179108228094856494::1703519959::1703519960::1::::<><>::
+Backback.png::CompressedTexture2D::3228214979750094443::1708522929::1708533395::1::::<><>::
+Chestplate_Slot.png::CompressedTexture2D::1778655329687079525::1708547069::1708547070::1::::<><>::
+Craft.png::CompressedTexture2D::8169777676704927993::1708189239::1708189292::1::::<><>::
+CraftingBackground.png::CompressedTexture2D::4364288736850786718::1708188630::1708188633::1::::<><>::
+Display.png::CompressedTexture2D::2565708670722453290::1705172666::1705172667::1::::<><>::
+Display_Corner.png::CompressedTexture2D::9017007634945668340::1705172909::1705172910::1::::<><>::
+Energy_Orbs_Slot.png::CompressedTexture2D::7379802272377571755::1708548187::1708548188::1::::<><>::
+Equipment Background.png::CompressedTexture2D::6048698364779454377::1708188607::1708188633::1::::<><>::
+FurnaceBackground.png::CompressedTexture2D::7672089373108845533::1708364267::1708364323::1::::<><>::
+Heart.png::CompressedTexture2D::5485084377371586312::1703519945::1703519946::1::::<><>::
+Helmet_Slot.png::CompressedTexture2D::5226475581201504215::1708546959::1708547070::1::::<><>::
+InventoryBackground.png::CompressedTexture2D::1058205574755750099::1708188505::1708188633::1::::<><>::
+ItemProperties.png::CompressedTexture2D::1495908478711830231::1708591077::1708591081::1::::<><>::
+ItemSlot.png::CompressedTexture2D::59345540002782418::1708017334::1708017335::1::::<><>::
+ItemTitle.png::CompressedTexture2D::8732355181521849322::1708591237::1708591238::1::::<><>::
+Item_DetailsBackground.png::CompressedTexture2D::459943960884724082::1708188563::1708188633::1::::<><>::
+Item_Profiler.png::CompressedTexture2D::755761494137805371::1708766299::1708766303::1::::<><>::
+Open_Chest.png::CompressedTexture2D::1024412975103689278::1708188149::1708188320::1::::<><>::
+ShowRecipe.png::CompressedTexture2D::1881110014433063607::1708592837::1708592838::1::::<><>::
+SlotAddon.png::CompressedTexture2D::3441427615796967284::1708017380::1708017381::1::::<><>::
+SlotImage.png::CompressedTexture2D::6239768304293894455::1703343694::1703343708::1::::<><>::
+TransferToChest.png::CompressedTexture2D::6304140473867174956::1708188146::1708188320::1::::<><>::
+TransferToInv.png::CompressedTexture2D::5366720127496947812::1708188144::1708188320::1::::<><>::
+::res://Textures/UI/Items/::1708548095
+::res://Textures/UI/Items/Armor/::1708547070
+Iron_Chestplate.png::CompressedTexture2D::3318643576996785256::1708546339::1708546341::1::::<><>::
+Iron_Helmet.png::CompressedTexture2D::826448340533508236::1708543157::1708543159::1::::<><>::
+Stone_Chestplate.png::CompressedTexture2D::8376204124740047593::1708546332::1708546341::1::::<><>::
+Stone_Helmet.png::CompressedTexture2D::9055829961069539130::1708546982::1708547070::1::::<><>::
+Wood_Chestplate.png::CompressedTexture2D::7744403652241878485::1708546118::1708546270::1::::<><>::
+Wood_Helmet.png::CompressedTexture2D::6751569317197224201::1708543100::1708543159::1::::<><>::
+::res://Textures/UI/Items/Blocks/::1708867774
+Chest.png::CompressedTexture2D::443548839709623482::1708013835::1708539301::1::::<><>::
+Clean_Stone.png::CompressedTexture2D::9095881977213068980::1708171642::1708539301::1::::<><>::
+Copper_Block.png::CompressedTexture2D::1896926358053095798::1708539403::1708539435::1::::<><>::
+Copper_Block_Oxidized.png::CompressedTexture2D::6857274327127244976::1708539393::1708539435::1::::<><>::
+Crafiting_Table.png::CompressedTexture2D::5534187209257912724::1708013979::1708539301::1::::<><>::
+Furnace.png::CompressedTexture2D::6700142017359253345::1708013977::1708539301::1::::<><>::
+Fusion_Forge.png::CompressedTexture2D::6627804513864012970::1708867772::1708867774::1::::<><>::
+Iron_Block.png::CompressedTexture2D::378554441990936697::1708539414::1708539435::1::::<><>::
+Raw_Stone_Block.png::CompressedTexture2D::5212428191679942717::1704384390::1708539301::1::::<><>::
+Rocket_Chest.png::CompressedTexture2D::6607310184081295658::1708013555::1708539301::1::::<><>::
+Wood_Blanks.png::CompressedTexture2D::2527730493595187094::1708540389::1708541142::1::::<><>::
+::res://Textures/UI/Items/EnergyOrbs/::1708774067
+Armor_Core.png::CompressedTexture2D::6658567381502349310::1708553066::1708586019::1::::<><>::
+Health_Upper.png::CompressedTexture2D::4189673527745404731::1708774065::1708774067::1::::<><>::
+::res://Textures/UI/Items/Ores/::1708535624
+Coal.png::CompressedTexture2D::4640539433338645214::1708012742::1708012957::1::::<><>::
+Plurana.png::CompressedTexture2D::7952747651139253817::1708430292::1708430294::1::::<><>::
+Raw_Copper.png::CompressedTexture2D::4704682667459150505::1708178773::1708180295::1::::<><>::
+Raw_Iron.png::CompressedTexture2D::9042568296570431409::1708012744::1708012957::1::::<><>::
+Raw_Stone.png::CompressedTexture2D::7341942771432405586::1708012746::1708012957::1::::<><>::
+::res://Textures/UI/Items/Resources/::1708539435
+Ingot_Copper.png::CompressedTexture2D::1024138621297984434::1708539421::1708539435::1::::<><>::
+Ingot_Iron.png::CompressedTexture2D::2733767161191728837::1708539418::1708539435::1::::<><>::
+Wooden_Loggs.png::CompressedTexture2D::2387810570215990259::1708109133::1708109133::1::::<><>::
+::res://Textures/UI/Items/Tools/::1710448910
+Iron_Axe.png::CompressedTexture2D::2572382215177171173::1708542123::1708542299::1::::<><>::
+Iron_Pickaxe.png::CompressedTexture2D::6513882538722198318::1708542082::1708542083::1::::<><>::
+Iron_Sword.png::CompressedTexture2D::51916601441334571::1708542587::1708542589::1::::<><>::
+Stone_Axe.png::CompressedTexture2D::1910269593171207433::1708542112::1708542299::1::::<><>::
+Stone_Pickaxe.png::CompressedTexture2D::405456562860574052::1708542186::1708542299::1::::<><>::
+Stone_Sword.png::CompressedTexture2D::7719964993629262149::1708542243::1708542299::1::::<><>::
+Wood_Axe.png::CompressedTexture2D::7107880843318082137::1708542119::1708542299::1::::<><>::
+Wood_Pickaxe.png::CompressedTexture2D::4080596274694979338::1708542108::1708542299::1::::<><>::
+Wood_Sword.png::CompressedTexture2D::9122939084022327339::1708542298::1708542299::1::::<><>::
+::res://Textures/UI/JoyStick/::1703943232
+Joystick.png::CompressedTexture2D::4632140167341916331::1703762509::1703762537::1::::<><>::
+JoystickBackground.png::CompressedTexture2D::3590040351808938967::1703943219::1703943220::1::::<><>::
+::res://Textures/UI/Planets/::1708705612
+Azuria.png::CompressedTexture2D::3187325154290093182::1705173990::1705174045::1::::<><>::
+Bokuta.png::CompressedTexture2D::7077863853332157674::1708705228::1708705229::1::::<><>::
+Huvle.png::CompressedTexture2D::8052126728475619068::1705173694::1705173777::1::::<><>::
+Selected_Planet.png::CompressedTexture2D::7441302701983525901::1705174211::1705174212::1::::<><>::
+Tab.png::CompressedTexture2D::3808378396164302716::1708705483::1708705484::1::::<><>::

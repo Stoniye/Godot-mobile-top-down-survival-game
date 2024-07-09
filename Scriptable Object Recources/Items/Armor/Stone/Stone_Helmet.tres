@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://b1imyj5eeopb8"]
+
+[ext_resource type="Texture2D" uid="uid://d2aygxa0aphpi" path="res://Textures/UI/Items/Armor/Stone_Helmet.png" id="1_q2yid"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="2_vvoky"]
+
+[resource]
+script = ExtResource("2_vvoky")
+image = ExtResource("1_q2yid")
+name = "Stone Helmet"
+use_type = "Helmet"
+itemtype_for_interacting = ""
+damage_entity = 12
+damage_block = 0
+durability = 20
+stackable = false
+smelt_energie = 0
+fuel_energie = 0
+description = "A very Strong Armor made out of Stone, but its sadly very fragile"

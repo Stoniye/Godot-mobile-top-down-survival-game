@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=4 format=3 uid="uid://b3sq7kielad6v"]
+
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/Recipe.gd" id="1_8yto2"]
+[ext_resource type="Resource" uid="uid://da0cid8n2h1v8" path="res://Scriptable Object Recources/Items/Blocks/Building/Wood/Wood_Planks.tres" id="1_ab7vh"]
+[ext_resource type="Resource" uid="uid://bc1sarwumqwar" path="res://Scriptable Object Recources/Items/Armor/Wood/Wood_Chestplate.tres" id="1_l24ua"]
+
+[resource]
+script = ExtResource("1_8yto2")
+output_item = ExtResource("1_l24ua")
+output_count = 1
+input_item = Array[Resource("res://Scriptable Object Recources/Recources/item.gd")]([ExtResource("1_ab7vh")])
+input_count = Array[int]([6])

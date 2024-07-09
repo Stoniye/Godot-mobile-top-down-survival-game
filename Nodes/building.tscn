@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://dwglsnwwrmc0w"]
+
+[ext_resource type="Texture2D" uid="uid://d2ud32n56q1cy" path="res://Textures/UI/Items/Blocks/Clean_Stone.png" id="1_gys8n"]
+[ext_resource type="Script" path="res://Scrips/UI/ItemSlot.gd" id="2_cbevt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1h01l"]
+size = Vector2(32, 16)
+
+[node name="Building" type="Sprite2D"]
+texture = ExtResource("1_gys8n")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(0, 8)
+shape = SubResource("RectangleShape2D_1h01l")
+
+[node name="Item" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_cbevt")
+metadata/_edit_use_anchors_ = true

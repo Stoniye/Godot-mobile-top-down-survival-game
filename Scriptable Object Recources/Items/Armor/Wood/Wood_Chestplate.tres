@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://bc1sarwumqwar"]
+
+[ext_resource type="Texture2D" uid="uid://dilpgxml0vcjd" path="res://Textures/UI/Items/Armor/Wood_Chestplate.png" id="1_7xb02"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="2_6n5mf"]
+
+[resource]
+script = ExtResource("2_6n5mf")
+image = ExtResource("1_7xb02")
+name = "Wood Chestplate"
+use_type = "Chestplate"
+itemtype_for_interacting = ""
+damage_entity = 6
+damage_block = 0
+durability = 45
+stackable = false
+smelt_energie = 0
+fuel_energie = 0
+description = "A cheep Armor made out of Wood"

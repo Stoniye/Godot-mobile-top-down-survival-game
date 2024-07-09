@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://dot66r4ftaix0"]
+
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="1_gcmqu"]
+[ext_resource type="Texture2D" uid="uid://dlkmueifw7130" path="res://Textures/UI/Items/Ores/Plurana.png" id="1_j2e4l"]
+
+[resource]
+script = ExtResource("1_gcmqu")
+image = ExtResource("1_j2e4l")
+name = "Plurana"
+use_type = "Item"
+itemtype_for_interacting = ""
+damage_entity = 0
+damage_block = 0
+durability = 0
+stackable = true
+smelt_energie = 0
+fuel_energie = 0
+description = "A very rare Ore. This stone has some weard purple material in it which is transperent like Glas"

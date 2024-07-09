@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://b7vsf4ot4krhv"]
+
+[ext_resource type="Texture2D" uid="uid://dh8uxwbwt4auf" path="res://Textures/UI/Items/Tools/Stone_Sword.png" id="1_t1gpp"]
+[ext_resource type="Script" path="res://Scriptable Object Recources/Recources/item.gd" id="2_6ec5t"]
+
+[resource]
+script = ExtResource("2_6ec5t")
+image = ExtResource("1_t1gpp")
+name = "Stone Sword"
+use_type = "Fighting"
+itemtype_for_interacting = ""
+damage_entity = 10
+damage_block = 0
+durability = 20
+stackable = false
+Equipable = false
+smelt_energie = 0
+fuel_energie = 0
