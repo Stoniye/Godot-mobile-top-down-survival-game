@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Resilentia"
+config/name="Resilentia - GitHub Version"
 run/main_scene="res://Scenes/main_menü.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://Textures/Icon/Icon.png"
