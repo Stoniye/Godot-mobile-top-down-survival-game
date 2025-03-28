@@ -1,14 +1,15 @@
-I started this project at the beginning of the year but lost motivation after 3-4 months. I estimate that I invested over 100 hours in this game. Although my code is a bit spaghetti-like, I thought I’d upload it. Maybe someone can find it useful! If you’re that someone, feel free to send me a message—I’d love to see what cool things you come up with.
+I started this project at the beginning of the year 2023 but lost motivation after a few months. In total, I’ve put over 100 hours into this game. While my code is a bit messy, I figured I’d upload it—maybe someone will find it useful! If that’s you, feel free to reach out—I’d love to see what cool things you create. (Yea i know it's not the best game and does't look great, but it was one of my first attempts and it was fun :))
 
-The features I’ve implemented so far include:
-- Save/Load of different worlds
-- Shop system with openable chests
-- Crafting
-- Smelting with a furnace
-- Building
-- Traveling with a rocket to other planets
+So far, I’ve implemented the following features:
 
-I’ve designed these systems to be as flexible as possible. In some cases, it only takes a few seconds to add new features or content to the game!
+  1. Saving and loading different worlds
+  2. A shop system with openable chests
+  3. Crafting
+  4. Smelting using a furnace
+  5. Building
+  6. Traveling to other planets via rocket
+
+I designed these systems to be as flexible as possible. In some cases, adding new features or content takes just a few seconds!
 
 Here are some screenshots of the game:
 ![Screenshot 2024-07-10 150727](https://github.com/Stoniye/Godot-mobile-top-down-survival-game/assets/81874364/c5af66c0-9b71-4582-9577-d0ed86d5f1ba)
